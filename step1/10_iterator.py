@@ -12,7 +12,19 @@ def fact(n):
 print(fact(10))
 
 
-#练习
+#练习 汉诺塔问题
 
+mycount = 0
 def move(n,a,b,c):
+    global mycount
+    if n == 1:
+        mycount = mycount + 1
+        print("#第%d次移动： %s -- > %s" %(mycount,a,c))
+    else:
+        move(n-1,a,c,b)
+        move(1,a,b,c)
+        move(n-1,b,a,c)
+
+
+move(3,'A','B','C')
     
