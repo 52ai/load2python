@@ -13,5 +13,10 @@ def now():
 f = now
 print(f())
 
+#函数对象有一个_name_属性，可以拿到函数的名字
 
+print(now.__name__)
+print(f.__name__)
+
+#今天跑步，欠下一天~~~~~~2016.3.14
 
