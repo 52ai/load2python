@@ -35,7 +35,7 @@ print(f.__name__)
 now()
 print(now.__name__)
 
-#练习~
+#练习~？？？？
 
 
 
