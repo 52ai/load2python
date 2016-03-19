@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1489e7a8-7bac-4802-a3d9-f31907473751" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/0_helloword.py" afterPath="$PROJECT_DIR$/Python基础学习/0_helloword.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/1_basic.py" afterPath="$PROJECT_DIR$/Python基础学习/1_basic.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/2_dataType.py" afterPath="$PROJECT_DIR$/Python基础学习/2_dataType.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/3_variable.py" afterPath="$PROJECT_DIR$/Python基础学习/3_variable.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/4_plus_xiaoming.py" afterPath="$PROJECT_DIR$/Python基础学习/4_plus_xiaoming.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/4_string.py" afterPath="$PROJECT_DIR$/Python基础学习/4_string.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/5_list_tuple.py" afterPath="$PROJECT_DIR$/Python基础学习/5_list_tuple.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/6_conditionJudge.py" afterPath="$PROJECT_DIR$/Python基础学习/6_conditionJudge.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/7_for_while.py" afterPath="$PROJECT_DIR$/Python基础学习/7_for_while.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/8_dict_set.py" afterPath="$PROJECT_DIR$/Python基础学习/8_dict_set.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/9_fuction.py" afterPath="$PROJECT_DIR$/Python基础学习/9_fuction.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/a_11_iterator.py" afterPath="$PROJECT_DIR$/Python基础学习/a_11_iterator.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/a_12_advancedFeatures.py" afterPath="$PROJECT_DIR$/Python基础学习/a_12_advancedFeatures.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/a_13_listComprehensions.py" afterPath="$PROJECT_DIR$/Python基础学习/a_13_listComprehensions.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/a_14_generator.py" afterPath="$PROJECT_DIR$/Python基础学习/a_14_generator.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/a_15_iterator.py" afterPath="$PROJECT_DIR$/Python基础学习/a_15_iterator.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/b_16_functional_programming.py" afterPath="$PROJECT_DIR$/Python基础学习/b_16_functional_programming.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/b_17_higher_order_function.py" afterPath="$PROJECT_DIR$/Python基础学习/b_17_higher_order_function.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/b_18_map_reduce.py" afterPath="$PROJECT_DIR$/Python基础学习/b_18_map_reduce.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/b_19_filter.py" afterPath="$PROJECT_DIR$/Python基础学习/b_19_filter.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/b_20_sorted.py" afterPath="$PROJECT_DIR$/Python基础学习/b_20_sorted.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/b_21_return.py" afterPath="$PROJECT_DIR$/Python基础学习/b_21_return.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/b_22_lambda.py" afterPath="$PROJECT_DIR$/Python基础学习/b_22_lambda.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/b_23_decorator.py" afterPath="$PROJECT_DIR$/Python基础学习/b_23_decorator.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/step1/b_24_partial_function.py" afterPath="$PROJECT_DIR$/Python基础学习/b_24_partial_function.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习（wxPython）/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python面向日常任务实战/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +40,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="736" />
-    <option name="y" value="72" />
+    <option name="x" value="399" />
+    <option name="y" value="102" />
     <option name="width" value="1057" />
     <option name="height" value="717" />
   </component>
@@ -74,7 +52,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -112,6 +90,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -122,7 +101,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,10 +343,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="72" width="1057" height="717" extended-state="0" />
+    <frame x="399" y="102" width="1057" height="717" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25977933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26479438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3321918" sideWeight="0.50351053" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
