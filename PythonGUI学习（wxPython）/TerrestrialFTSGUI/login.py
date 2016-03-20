@@ -1,5 +1,6 @@
 import wx
 
+
 class TextFrame(wx.Frame):
 
     def __init__(self):

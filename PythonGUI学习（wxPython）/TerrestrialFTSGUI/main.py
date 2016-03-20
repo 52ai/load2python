@@ -1,60 +1,31 @@
-# coding=utf-8
 import wx
 
 
-app = wx.App()
-win = wx.Frame(None, title="CCSDS TERRESTRIAL FILE TRANSFER SYSTEM", size=(820, 660))
-bkg = wx.Panel(win)
+class TextFrame(wx.Frame):
+    def __init__(self):
+        wx.Frame.__init__(self, None, -1, 'Main Page(TERRESTRIAL FILE TRANSFER SYSTEM)', size=(670, 364))
+        self.SetBackgroundColour(wx.Colour(204, 153, 102))
+        font_title = wx.Font(16, wx.MODERN, wx.NORMAL, wx.NORMAL)
+        font_text = wx.Font(10, wx.MODERN, wx.NORMAL, wx.NORMAL)
+        wx.StaticText(self, -1, "CCSDS TERRESTRIAL FILE TRANSFER SYSTEM",
+                      pos=(10, 10), size=(150, 25)).SetFont(font_text)
+        openBtn = wx.Button(self, label='OPEN', pos=(10, 50), size=(80, 25))
+        userBtn = wx.Button(self, label='USER', pos=(150, 50), size=(80, 25))
+        #Body Button
+        listBtn = wx.Button(self, label='list', pos=(10, 100), size=(80, 25))
+        putBtn = wx.Button(self, label='put', pos=(150, 100), size=(80, 25))
+        getBtn = wx.Button(self, label='get', pos=(10, 140), size=(80, 25))
+        deleteBtn = wx.Button(self, label='delete', pos=(150, 140), size=(80, 25))
+        regetBtn = wx.Button(self, label='reget', pos=(10, 180), size=(80, 25))
+        cdBtn = wx.Button(self, label='cd', pos=(150, 180), size=(80, 25))
+        mkdirBtn = wx.Button(self, label='mkdir', pos=(10, 220), size=(80, 25))
+        clearBtn = wx.Button(self, label='clear', pos=(150, 220), size=(80, 25))
+        #The Right Task List
+        tasklist = wx.TextCtrl(self, pos=(300, 50), size=(300, 195))
+        wx.StaticText(self, -1, "Local address:XXX.XXX.XXX.XXX    Peer IP address:XXX.XXX.XXX.XXX  Connetion Status:ON", pos=(10, 300), size=(150, 25)).SetFont(font_text)
 
-loadButton = wx.Button(bkg, label='Open')
-
-userButton = wx.Button(bkg, label='User')
-
-listBtn = wx.Button(bkg, label='list')
-putBtn = wx.Button(bkg, label='put')
-getBtn = wx.Button(bkg, label='get')
-deleteBtn = wx.Button(bkg, label='delete')
-regetBtn = wx.Button(bkg, label='reget')
-cdBtn = wx.Button(bkg, label='cd')
-mkdirBtn = wx.Button(bkg, label='mkdir')
-clearBtn = wx.Button(bkg,label='clear')
-
-
-filename = wx.TextCtrl(bkg)
-
-contents2 = wx.TextCtrl(bkg, style=wx.TE_MULTILINE)
-
-
-hbox = wx.BoxSizer()
-
-hbox.Add(loadButton, proportion=1, flag=wx.LEFT, border=0)
-hbox.Add(userButton, proportion=1, flag=wx.LEFT, border=0)
-
-
-bleftbox = wx.BoxSizer(wx.VERTICAL)
-bleftbox.Add(listBtn,proportion=0,flag=wx.LEFT,border=5)
-bleftbox.Add(putBtn,proportion=0,flag=wx.LEFT,border=5)
-bleftbox.Add(getBtn,proportion=0,flag=wx.LEFT,border=5)
-bleftbox.Add(deleteBtn,proportion=0,flag=wx.LEFT,border=5)
-bleftbox.Add(regetBtn,proportion=0,flag=wx.LEFT,border=5)
-bleftbox.Add(cdBtn,proportion=0,flag=wx.LEFT,border=5)
-bleftbox.Add(mkdirBtn,proportion=0,flag=wx.LEFT,border=5)
-bleftbox.Add(clearBtn,proportion=0,flag=wx.LEFT,border=5)
-
-
-bodybox = wx.BoxSizer()
-bodybox.Add(bleftbox, proportion=0, flag=wx.EXPAND | wx.LEFT | wx.BOTTOM |wx.RIGHT, border=5)
-bodybox.Add(contents2, proportion=1, flag=wx.EXPAND | wx.LEFT | wx.BOTTOM |wx.RIGHT, border=0)
-
-fbox = wx.BoxSizer()
-fbox.Add(filename, proportion=1, flag=wx.EXPAND)
-
-vbox = wx.BoxSizer(wx.VERTICAL)
-vbox.Add(hbox, proportion=0, flag=wx.EXPAND | wx.ALL, border=5)
-vbox.Add(bodybox, proportion=1, flag=wx.EXPAND | wx.LEFT | wx.BOTTOM |wx.RIGHT, border=5)
-vbox.Add(fbox, proportion=0, flag=wx.EXPAND)
-
-bkg.SetSizer(vbox)
-win.Show()
-
-app.MainLoop()
+if __name__ == '__main__':
+    app = wx.PySimpleApp()
+    frame = TextFrame()
+    frame.Show()
+    app.MainLoop()
