@@ -1,3 +1,7 @@
+# coding=utf-8
+# Author：Wenyan Yu
+# Date：2016.3.18
+# Name:login.py
 import wx
 
 
