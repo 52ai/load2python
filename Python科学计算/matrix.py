@@ -1,6 +1,7 @@
 # /usr/bin/env python
 # -*- coding=utf-8 -*-
 
+
 from numpy import array, mat, matrix, shape, multiply
 
 A = matrix([[1, 1, 1],
@@ -28,4 +29,6 @@ c = matrix([[1, 4, 5],
             [3, 16, 30]])
 d = matrix([112, -39, 10]).T
 print(c*d)
+e = matrix([[1, 3, 1, -4], [-1, -3, 1, 0], [2, 6, 2, -8]])
 
+print(e*e.T)
