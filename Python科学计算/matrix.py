@@ -3,7 +3,7 @@
 
 from numpy import array, mat, matrix, shape, multiply
 
-a = matrix([[1, 1, 1],
+A = matrix([[1, 1, 1],
             [1, 2, 2],
             [1, 2, 3]])
 
@@ -11,9 +11,9 @@ a_inverse = matrix([[2, -1, 0],
                    [-1, 2, -1],
                    [0, -1, 1]])
 
-print(a*a_inverse)
+print(A*a_inverse)
 
-print(a**-1)
+print(A**-1)
 
 
 b = matrix([[2, 0, -1],
@@ -21,3 +21,11 @@ b = matrix([[2, 0, -1],
             [-1, 2, 1]])
 
 print(b**-1)
+
+
+c = matrix([[1, 4, 5],
+            [4, 18, 26],
+            [3, 16, 30]])
+d = matrix([112, -39, 10]).T
+print(c*d)
+
