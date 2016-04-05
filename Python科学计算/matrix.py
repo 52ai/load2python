@@ -1,7 +1,7 @@
 # /usr/bin/env python
 # -*- coding=utf-8 -*-
 
-from numpy import array, mat, matrix, shape, multiply
+from numpy import matrix
 
 A = matrix([[1, 1, 1],
             [1, 2, 2],

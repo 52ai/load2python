@@ -1,4 +1,4 @@
-#encoding=utf-8
+# encoding=utf-8
 from __future__ import unicode_literals
 import sys
 sys.path.append("../")
@@ -8,45 +8,45 @@ import jieba.posseg
 import jieba.analyse
 
 print('='*40)
-print('1. 分词')
+print('1. 路脰麓脢')
 print('-'*40)
 
-seg_list = jieba.cut("我来到北京清华大学", cut_all=True)
-print("Full Mode: " + "/ ".join(seg_list))  # 全模式
+seg_list = jieba.cut("脦脪脌麓碌陆卤卤戮漏脟氓禄陋麓贸脩搂", cut_all=True)
+print("Full Mode: " + "/ ".join(seg_list))  # 脠芦脛拢脢陆
 
-seg_list = jieba.cut("我来到北京清华大学", cut_all=False)
-print("Default Mode: " + "/ ".join(seg_list))  # 默认模式
+seg_list = jieba.cut("脦脪脌麓碌陆卤卤戮漏脟氓禄陋麓贸脩搂", cut_all=False)
+print("Default Mode: " + "/ ".join(seg_list))  # 脛卢脠脧脛拢脢陆
 
-seg_list = jieba.cut("他来到了网易杭研大厦")
+seg_list = jieba.cut("脣没脌麓碌陆脕脣脥酶脪脳潞录脩脨麓贸脧脙")
 print(", ".join(seg_list))
 
-seg_list = jieba.cut_for_search("小明硕士毕业于中国科学院计算所，后在日本京都大学深造")  # 搜索引擎模式
+seg_list = jieba.cut_for_search("脨隆脙梅脣露脢驴卤脧脪碌脫脷脰脨鹿煤驴脝脩搂脭潞录脝脣茫脣霉拢卢潞贸脭脷脠脮卤戮戮漏露录麓贸脩搂脡卯脭矛")  # 脣脩脣梅脪媒脟忙脛拢脢陆
 print(", ".join(seg_list))
 
 print('='*40)
-print('2. 添加自定义词典/调整词典')
+print('2. 脤铆录脫脳脭露篓脪氓麓脢碌盲/碌梅脮没麓脢碌盲')
 print('-'*40)
 
-print('/'.join(jieba.cut('如果放到post中将出错。', HMM=False)))
-#如果/放到/post/中将/出错/。
-print(jieba.suggest_freq(('中', '将'), True))
+print('/'.join(jieba.cut('脠莽鹿没路脜碌陆post脰脨陆芦鲁枚麓铆隆拢', HMM=False)))
+#脠莽鹿没/路脜碌陆/post/脰脨陆芦/鲁枚麓铆/隆拢
+print(jieba.suggest_freq(('脰脨', '陆芦'), True))
 #494
-print('/'.join(jieba.cut('如果放到post中将出错。', HMM=False)))
-#如果/放到/post/中/将/出错/。
-print('/'.join(jieba.cut('「台中」正确应该不会被切开', HMM=False)))
-#「/台/中/」/正确/应该/不会/被/切开
-print(jieba.suggest_freq('台中', True))
+print('/'.join(jieba.cut('脠莽鹿没路脜碌陆post脰脨陆芦鲁枚麓铆隆拢', HMM=False)))
+#脠莽鹿没/路脜碌陆/post/脰脨/陆芦/鲁枚麓铆/隆拢
+print('/'.join(jieba.cut('隆赂脤篓脰脨隆鹿脮媒脠路脫娄赂脙虏禄禄谩卤禄脟脨驴陋', HMM=False)))
+#隆赂/脤篓/脰脨/隆鹿/脮媒脠路/脫娄赂脙/虏禄禄谩/卤禄/脟脨驴陋
+print(jieba.suggest_freq('脤篓脰脨', True))
 #69
-print('/'.join(jieba.cut('「台中」正确应该不会被切开', HMM=False)))
-#「/台中/」/正确/应该/不会/被/切开
+print('/'.join(jieba.cut('隆赂脤篓脰脨隆鹿脮媒脠路脫娄赂脙虏禄禄谩卤禄脟脨驴陋', HMM=False)))
+#隆赂/脤篓脰脨/隆鹿/脮媒脠路/脫娄赂脙/虏禄禄谩/卤禄/脟脨驴陋
 
 print('='*40)
-print('3. 关键词提取')
+print('3. 鹿脴录眉麓脢脤谩脠隆')
 print('-'*40)
 print(' TF-IDF')
 print('-'*40)
 
-s = "此外，公司拟对全资子公司吉林欧亚置业有限公司增资4.3亿元，增资后，吉林欧亚置业注册资本由7000万元增加到5亿元。吉林欧亚置业主要经营范围为房地产开发及百货零售等业务。目前在建吉林欧亚城市商业综合体项目。2013年，实现营业收入0万元，实现净利润-139.13万元。"
+s = "麓脣脥芒拢卢鹿芦脣戮脛芒露脭脠芦脳脢脳脫鹿芦脣戮录陋脕脰脜路脩脟脰脙脪碌脫脨脧脼鹿芦脣戮脭枚脳脢4.3脪脷脭陋拢卢脭枚脳脢潞贸拢卢录陋脕脰脜路脩脟脰脙脪碌脳垄虏谩脳脢卤戮脫脡7000脥貌脭陋脭枚录脫碌陆5脪脷脭陋隆拢录陋脕脰脜路脩脟脰脙脪碌脰梅脪陋戮颅脫陋路露脦搂脦陋路驴碌脴虏煤驴陋路垄录掳掳脵禄玫脕茫脢脹碌脠脪碌脦帽隆拢脛驴脟掳脭脷陆篓录陋脕脰脜路脩脟鲁脟脢脨脡脤脪碌脳脹潞脧脤氓脧卯脛驴隆拢2013脛锚拢卢脢碌脧脰脫陋脪碌脢脮脠毛0脥貌脭陋拢卢脢碌脧脰戮禄脌没脠贸-139.13脥貌脭陋隆拢"
 for x, w in jieba.analyse.extract_tags(s, withWeight=True):
     print('%s %s' % (x, w))
 
@@ -58,27 +58,27 @@ for x, w in jieba.analyse.textrank(s, withWeight=True):
     print('%s %s' % (x, w))
 
 print('='*40)
-print('4. 词性标注')
+print('4. 麓脢脨脭卤锚脳垄')
 print('-'*40)
 
-words = jieba.posseg.cut("我爱北京天安门")
+words = jieba.posseg.cut("脦脪掳庐卤卤戮漏脤矛掳虏脙脜")
 for word, flag in words:
     print('%s %s' % (word, flag))
 
 print('='*40)
-print('6. Tokenize: 返回词语在原文的起止位置')
+print('6. Tokenize: 路碌禄脴麓脢脫茂脭脷脭颅脦脛碌脛脝冒脰鹿脦禄脰脙')
 print('-'*40)
-print(' 默认模式')
+print(' 脛卢脠脧脛拢脢陆')
 print('-'*40)
 
-result = jieba.tokenize('永和服装饰品有限公司')
+result = jieba.tokenize('脫脌潞脥路镁脳掳脢脦脝路脫脨脧脼鹿芦脣戮')
 for tk in result:
     print("word %s\t\t start: %d \t\t end:%d" % (tk[0],tk[1],tk[2]))
 
 print('-'*40)
-print(' 搜索模式')
+print(' 脣脩脣梅脛拢脢陆')
 print('-'*40)
 
-result = jieba.tokenize('永和服装饰品有限公司', mode='search')
+result = jieba.tokenize('脫脌潞脥路镁脳掳脢脦脝路脫脨脧脼鹿芦脣戮', mode='search')
 for tk in result:
     print("word %s\t\t start: %d \t\t end:%d" % (tk[0],tk[1],tk[2]))
