@@ -1,7 +1,12 @@
 # /usr/bin/env python
 # -*- coding=utf-8 -*-
 
+<<<<<<< HEAD
 from numpy import matrix
+=======
+
+from numpy import array, mat, matrix, shape, multiply
+>>>>>>> 4c8b859b41dae5913d0c3bd2f6b1826545efc434
 
 A = matrix([[1, 1, 1],
             [1, 2, 2],
