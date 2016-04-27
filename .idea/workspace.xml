@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex10.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex8.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex9.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="load2python.iws" />
@@ -505,7 +494,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
