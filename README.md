@@ -14,5 +14,8 @@
 ---2016.3.22 By Wenyan Yu
 
 慎终如始，则无败事！---2016.3.22 By Wenyan Yu
+<<<<<<< HEAD
 
 转战Linux平台，又重新回到Linux的怀抱，这感觉真好，Linux真心比Windows用的舒服，哈哈～～！---2016.5.4 By Wenyan Yu
+=======
+>>>>>>> 97d869c85ecb55697035d94e85f181f6911f3753
