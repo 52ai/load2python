@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py" line="2" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex37.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex38.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex39.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Learn-python-the-hard-way/ex35.py" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex35.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Learn-python-the-hard-way/ex36.py" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex36.py" />
     </list>
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +43,18 @@
     <favorites_list name="load2python" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ex40.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,6 +110,7 @@
         <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex37.py" />
         <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex38.py" />
         <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex39.py" />
+        <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py" />
       </list>
     </option>
   </component>
@@ -109,8 +120,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="859" />
-    <option name="y" value="332" />
+    <option name="x" value="1074" />
+    <option name="y" value="253" />
     <option name="width" value="1053" />
     <option name="height" value="765" />
   </component>
@@ -194,25 +205,7 @@
       <recent name="D:\python\load2python\Learn-python-the-hard-way" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex39">
-    <configuration default="false" name="ex32" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Learn-python-the-hard-way" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="load2python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Learn-python-the-hard-way/ex32.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ex40">
     <configuration default="false" name="ex35" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,6 +274,24 @@
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Learn-python-the-hard-way/ex39.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ex40" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Learn-python-the-hard-way" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="load2python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -426,19 +437,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ex32" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ex35" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ex37" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ex38" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ex39" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ex35" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ex37" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ex38" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ex39" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ex40" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ex39" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ex38" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ex37" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ex35" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ex32" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ex40" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ex39" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ex38" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ex37" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ex35" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +470,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="859" y="332" width="1053" height="765" extended-state="0" />
+    <frame x="1074" y="253" width="1053" height="765" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23763336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -498,13 +509,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex14.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -850,6 +854,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
