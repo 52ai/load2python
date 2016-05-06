@@ -5,6 +5,7 @@
 
 from sys import exit
 
+
 def gold_room():
     print "This room is full of gold. How much do you take?"
 
@@ -60,9 +61,11 @@ def cthulu_room():
     else:
         cthulu_room()
 
+
 def dead(why):
     print why, "Good job!"
     exit(0)
+
 
 def start():
     print "You are in a dark room."
