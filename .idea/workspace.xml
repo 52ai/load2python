@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py" line="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="" />
+    <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Learn-python-the-hard-way/ex41.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -40,18 +43,7 @@
     <favorites_list name="load2python" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ex40.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,6 +100,7 @@
         <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex38.py" />
         <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex39.py" />
         <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py" />
+        <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex41.py" />
       </list>
     </option>
   </component>
@@ -117,8 +110,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="661" />
-    <option name="y" value="315" />
+    <option name="x" value="925" />
+    <option name="y" value="102" />
     <option name="width" value="1053" />
     <option name="height" value="765" />
   </component>
@@ -147,6 +140,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,8 +176,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,25 +195,7 @@
       <recent name="D:\python\load2python\Learn-python-the-hard-way" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex40">
-    <configuration default="false" name="ex35" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Learn-python-the-hard-way" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="load2python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Learn-python-the-hard-way/ex35.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ex41">
     <configuration default="false" name="ex37" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,6 +264,24 @@
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ex41" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Learn-python-the-hard-way" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="load2python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Learn-python-the-hard-way/ex41.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -434,19 +427,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ex35" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ex37" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ex38" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ex39" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ex40" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ex37" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ex38" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ex39" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ex40" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ex41" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ex40" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ex39" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ex38" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ex37" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ex35" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ex41" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ex40" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ex39" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ex38" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ex37" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +460,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="661" y="315" width="1053" height="765" extended-state="0" />
+    <frame x="925" y="102" width="1053" height="765" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23763336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -475,7 +468,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36755952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="383" y="487" width="1283" height="348" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36645964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="383" y="487" width="1283" height="348" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -506,13 +499,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -819,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-129">
           <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,15 +833,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex40.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="360">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learn-python-the-hard-way/ex41.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
