@@ -14,8 +14,16 @@ from numpy import matrix
 
 
 def lu_factor(data):
-    print "LU"
-    print data
+    print "----------LU----------"
+    [n,n] = data.shape
+    # print n
+    L = matrix([[0.0] * n for i in xrange(n)])
+    U = matrix([[0.0] * n for i in xrange(n)])
+
+    print L
+    print U
+    
+
 
 
 def qr_factor(data):
@@ -32,7 +40,7 @@ def givens_reduction(data):
     print "Givens"
     print data
 
-
+"""
 
 print "温馨提示：1.请保证您正处于英文输入状态 2.请您参照下面给出的说明进行相应操作"
 print "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
@@ -42,7 +50,7 @@ print "【2】QR 分解"
 print "【3】Householder 约简"
 print "【4】Givens 约简"
 
-inputNum = raw_input("请选择：")
+inputNum = int(raw_input("请选择："))
 print "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
 # print inputNum
 
@@ -51,11 +59,24 @@ if not inputMatrix.strip():
     inputMatrix = raw_input("输入矩阵不能为空,请重新输入> ")
 
 inputMatrix = inputMatrix.split(';')
+
 data = []
 for ele in inputMatrix:
     data.append(map(float, ele.strip().split(' ')))
 
-if int(inputNum) == 1:
+data = matrix(data)
+
+if inputNum == 1:
     lu_factor(data)
+elif inputNum == 2:
+    qr_factor(data)
+elif inputNum == 3:
+    householder_reduction(data)
+elif inputNum == 4:
+    givens_reduction(data)
+"""
+
+data = matrix('2 2 2; 4 7 7; 6 18 22') 
+lu_factor(data)
 
 print data
