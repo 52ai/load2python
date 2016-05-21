@@ -5,42 +5,143 @@
 # 日期：2016.5.17
 # 输入：矩阵A
 # 输出：所选择矩阵A对应分解或约减后的结果
-# 实例：A=[2 0 -1; -1 1 1; -1 2 2]
-#       A=[1 2 -3 4; 4 8 12 -8; 2 3 2 1; -3 -1 1 -4]
+# 实例：A = [2 2 2; 4 7 7; 6 18 22] for LU Factorization
+#       A = [0 -20 -14; 3 27 -4; 4 11 -2] for QR(GramSchmidt) Factorization
 #
-# 支持特性：1.支持n*n矩阵 2.支持浮点型运算
+# 支持特性：
+# 1.对于LU支持n*n矩阵
+# 2.对于QR，Householder,Givens均支持m*n矩阵
+# 3.支持浮点型运算
 # ###################################################
 from numpy import matrix
+from math import sqrt
 
 
 def lu_factor(data):
-    print "----------LU----------"
-    [n,n] = data.shape
+    A = data
+    print "***********下面进行LU分解***********"
+    [n,n] = A.shape
+    # print A[1, 1]
     # print n
+    # Create zero matrices for L and U
     L = matrix([[0.0] * n for i in xrange(n)])
-    U = matrix([[0.0] * n for i in xrange(n)])
-
-    print L
-    print U
-    
-
+    U = matrix([[0.0] * n for i in xrange(n)])    
+    for j in xrange(n):
+        # L的所有对角元素都置为1
+        L[j, j] = 1.0
+        # LaTex: u_{i,j} = a_{i,j} - \sum_{k =1}^{i-1} u_{kj} l_{ik}
+        for i in xrange(j + 1):
+            s1 = sum(U[k, j] * L[i, k] for k in xrange(i))
+            U[i, j] = A[i, j] - s1
+        # LaTex: l_{ij} = \frac{1}{u_{jj}} (a_{ij}- \sum_{k=1}^{j-1} u_{kj} l_{ik})
+        for i in xrange(j, n):
+            s2 = sum(U[k, j] * L[i, k] for k in xrange(j))
+            L[i, j] = (A[i, j] - s2) / U[j, j]
+    print "--------------A---------------- \n", A
+    print "--------------L---------------- \n", L
+    print "--------------U---------------- \n", U, "\n -----------------------------"
+    print "************************************"
+    return (L, U)
 
 
 def qr_factor(data):
-    print "QR"
-    print data
+    A = data
+    print "***********下面进行QR(GramSchidt)分解***********"
+    [m, n] = A.shape
+    #print [m, n]
+    Q = matrix([[0.0] * n for i in xrange(m)])
+    R = matrix([[0.0] * n for i in xrange(n)])
+    
+    for k in xrange(1, n + 1):
+        if k == 1:
+            r11 = sqrt(sum(x_i**2 for x_i in A[:,0] )) #求r11的模
+            q1 = A[:,0] / r11
+            Q[:,0] = q1
+            R[0,0] = r11
+        else:
+            ak = A[:,k-1] # 初始化ak 为A中的第k个列向量
+            for l in xrange(k-1):
+                R[l, k-1] = ak.T * Q[:, l]
+                ak = ak - R[l, k-1] * Q[:, l]
+            q = ak
+            R[k-1, k-1] = sqrt(sum(x_i**2 for x_i in q)) #求q的模，并放在R矩阵的相应位置
+            Q[:, k-1] = q / R[k-1, k-1] # 对矩阵Q的第k个列向量进行归一化操作
+    print "--------------A---------------- \n", A
+    print "--------------Q---------------- \n", Q
+    print "--------------R---------------- \n", R, "\n -----------------------------"
+    print "************************************"
+    return (Q, R)
 
 
 def householder_reduction(data):
-    print "Householder"
-    print data
+    A = data
+    print "**********Householder_reduction***********"
+    [m, n] = A.shape
+    
+    #初始化R矩阵
+    R = matrix([[0.0] * n for i in xrange(m)])
+    #生成对应size的单位矩阵
+    I = matrix([[float( i == j) for i in xrange(n)] for j in xrange(n)])
+    R0 = I # R0作为循环的中间变量
+    e1 = I[:,0]
+    for k in xrange(1, n):
+        if k == 1:
+            u1 = A[:, 0] - sqrt(sum(x_i**2 for x_i in A[:, 0])) * e1
+            R1 = I - 2*u1*u1.T/(u1.T*u1)
+            R = R1
+            a = R1*A
+    #        print "---------k=%d-----------------------------" % k
+    #        print "A=\n",A
+    #        print "R1=\n",R1
+    #        print "R1A=\n",R1*A
+        else:
+            Ak = a[k-1:m,k-1:n]
+            l = len(Ak)
+            #生成相应size的单位矩阵
+            I_l = matrix([[float( i == j) for i in xrange(l)] for j in xrange(l)])
+            uk = Ak[:,0] -sqrt(sum(x_i**2 for x_i in Ak[:,0]))*I_l[:,0]
+            rk = I_l - 2 * uk *uk.T/(uk.T*uk)
+            Rk = R0
+            Rk[k-1:m,k-1:n] = rk
+            a = Rk * a
+            R = Rk*R
+    #        print "---------k=%d----------------------------" % k
+    #        print "R%d=\n" % k,Rk
+    #        print "R%d*..*R1A=\n" % k,a
 
+    P = R
+    T = R * A
+
+    print "相应的P矩阵为：\n",P
+    print "相应的T矩阵为：\n",T
+    print "******************************************"
+    return (P, T)
 
 def givens_reduction(data):
-    print "Givens"
-    print data
+    A = data
+    print "**********Givens_reduction***********"
+    [m, n] = A.shape
+    
+    #初始化Q矩阵
+    Q = matrix([[float( i == j) for i in xrange(n)] for j in xrange(n)])
+    a = A
+    xk = a[:,1]
+    for k in xrange(1,n-1):
+        Ak = a[k-1:m, k:n]
+        xk = Ak(:, 1)
+        [n1, n2] = size(Ak)
+        Qm = matrix([[float(i==j) for i in xrange(n1)] for j in xrange(n1)])
+        for m in xrange(2, n1):
+            q = matrix([[float(i==j) for i in xrange(n1)] for j in xrange(n1)])
+            q[0, 0] = xk[0] 
 
-"""
+            
+
+
+    print "相应的Q矩阵为：\n",Q
+    print "相应的T矩阵为：\n",T
+    print "******************************************"
+    return (Q, T)
 
 print "温馨提示：1.请保证您正处于英文输入状态 2.请您参照下面给出的说明进行相应操作"
 print "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
@@ -53,7 +154,7 @@ print "【4】Givens 约简"
 inputNum = int(raw_input("请选择："))
 print "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
 # print inputNum
-
+"""
 inputMatrix = raw_input("请输入一个矩阵：（同一行元素用空格隔开，不用行用分号隔开，例如：1 2 3; 3 4 5; 6 7 8）>")
 if not inputMatrix.strip():
     inputMatrix = raw_input("输入矩阵不能为空,请重新输入> ")
@@ -63,7 +164,11 @@ inputMatrix = inputMatrix.split(';')
 data = []
 for ele in inputMatrix:
     data.append(map(float, ele.strip().split(' ')))
-
+"""
+# data = ('2 2 2; 4 7 7; 6 18 22') # for LU n*n
+# data = ('0 -20 -14; 3 27 -4')  # for QR(GramSchidt) n*n
+# data = ('1 1 0; 1 0 1') for QR(GramSchidt) m*n
+data = ('0 -20 -14; 3 27 -4; 4 11 -2') # for Householder and Givens
 data = matrix(data)
 
 if inputNum == 1:
@@ -74,9 +179,3 @@ elif inputNum == 3:
     householder_reduction(data)
 elif inputNum == 4:
     givens_reduction(data)
-"""
-
-data = matrix('2 2 2; 4 7 7; 6 18 22') 
-lu_factor(data)
-
-print data
