@@ -1,13 +1,16 @@
 # -*- coding:utf-8 -*-
 # ##################################################
-# 函数：LU分解，QR分解， Householder约减，Givens约减
+# 函数：LU分解，QR分解， Householde约简，Givens约简
 # 作者：余文艳(2015E8007361074)
 # 日期：2016.5.17
 # 输入：矩阵A
-# 输出：所选择矩阵A对应分解或约减后的结果
-# 实例：A = [2 2 2; 4 7 7; 6 18 22] for LU Factorization
-#       A = [0 -20 -14; 3 27 -4; 4 11 -2] for QR(GramSchmidt) Factorization
-#
+# 输出：所选择矩阵A对应分解或约简后的结果
+# 实例：
+# > 2 2 2; 4 7 7; 6 18 22               # for LU n*n
+# > 0 -20 -14; 3 27 -4                  # for QR(GramSchidt) n*n
+# > 1 1 0; 1 0 1                        # for QR(GramSchidt) m*n
+# > 0 -20 -14; 3 27 -4; 4 11 -2         # for Householder and Givens
+# > 1 19 -34; -2 -5 20; 2 8 37          # for LU QR Householder and Givens
 # 支持特性：
 # 1.对于LU支持n*n矩阵
 # 2.对于QR，Householder,Givens均支持m*n矩阵
@@ -166,7 +169,7 @@ print "【4】Givens 约简"
 inputNum = int(raw_input("请选择："))
 print "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
 # print inputNum
-"""
+
 inputMatrix = raw_input("请输入一个矩阵：（同一行元素用空格隔开，不用行用分号隔开，例如：1 2 3; 3 4 5; 6 7 8）>")
 if not inputMatrix.strip():
     inputMatrix = raw_input("输入矩阵不能为空,请重新输入> ")
@@ -176,12 +179,12 @@ inputMatrix = inputMatrix.split(';')
 data = []
 for ele in inputMatrix:
     data.append(map(float, ele.strip().split(' ')))
-"""
+
 # data = ('2 2 2; 4 7 7; 6 18 22') # for LU n*n
 # data = ('0 -20 -14; 3 27 -4')  # for QR(GramSchidt) n*n
 # data = ('1 1 0; 1 0 1') for QR(GramSchidt) m*n
 # data = ('0 -20 -14; 3 27 -4; 4 11 -2') # for Householder and Givens
-data = ('1 19 -34; -2 -5 20; 2 8 37') # for LU QR Householder and Givens
+# data = ('1 19 -34; -2 -5 20; 2 8 37') # for LU QR Householder and Givens
 data = matrix(data)
 
 if inputNum == 1:
