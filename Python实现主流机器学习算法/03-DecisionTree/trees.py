@@ -67,6 +67,10 @@ def majority_cnt(class_list):
             class_count[vote] = 0
         class_count[vote] += 1
     sorted_class_count = sorted(class_count.iteritems(), key=operator.itemgetter(1), reverse=True)
+    """
+    sorted(arg1, key=arg1, reverse=True) operator.itemgetter(1) 函数获取的不是值，而是定义了一个函数，通过该函数作用到对象上才能获取值。
+    reverse = True 表示降序
+    """
     return sorted_class_count[0][0]
 
 
