@@ -3,6 +3,7 @@
 from math import log
 import operator
 
+
 def calc_shannon_ent(data_set):
     num_entries = len(data_set)
     labels_counts = {}
