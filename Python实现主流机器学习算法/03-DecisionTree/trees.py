@@ -59,3 +59,15 @@ def choose_best_feature_to_split(data_set):
             best_feature = i
     return best_feature
 
+
+def majority_cnt(class_list):
+    class_count = {}
+    for vote in class_list:
+        if vote not in class_count.keys():
+            class_count[vote] = 0
+        class_count[vote] += 1
+    sorted_class_count = sorted(class_count.iteritems(), key=operator.itemgetter(1), reverse=True)
+    return sorted_class_count[0][0]
+
+
+
