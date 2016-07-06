@@ -37,7 +37,7 @@ file:dataCut.py<br>
 2万样本短信数据集由于测试用，其中标签提取出来用于后面计算分类的准确率，方便模型评估。<br>
 
 ##### **第二步，文本分词。**<br>
-file：seg_word.py<br>
+file：segmentWord.py<br>
 
 这里采用开源的结巴分词系统，用于本系统的分词。
 

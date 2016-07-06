@@ -7,12 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NLPFinalHomework/seg_word.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NLPFinalHomework/test/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NLPFinalHomework/data/test_jieba.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NLPFinalHomework/extractionFeature.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLPFinalHomework/README.md" afterPath="$PROJECT_DIR$/NLPFinalHomework/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NLPFinalHomework/testJieba.py" afterPath="$PROJECT_DIR$/NLPFinalHomework/test/testJieba.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/NLPFinalHomework/seg_word.py" afterPath="$PROJECT_DIR$/NLPFinalHomework/segmentWord.py" />
     </list>
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,16 +81,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dataCut.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NLPFinalHomework/dataCut.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="testJieba.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NLPFinalHomework/test/testJieba.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,14 +91,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seg_word.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NLPFinalHomework/seg_word.py">
+      <file leaf-file-name="dataCut.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NLPFinalHomework/dataCut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8507463">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="segmentWord.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NLPFinalHomework/segmentWord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="e#89#101#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extractionFeature.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NLPFinalHomework/extractionFeature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,8 +137,8 @@
         <entry file="file://$PROJECT_DIR$/NLPFinalHomework/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.27602905">
-                <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.092009686">
+                <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -176,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex30.py" />
         <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex31.py" />
         <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex32.py" />
         <option value="$PROJECT_DIR$/Learn-python-the-hard-way/ex35.py" />
@@ -227,6 +234,7 @@
         <option value="$PROJECT_DIR$/NLPFinalHomework/segmentation.py" />
         <option value="$PROJECT_DIR$/NLPFinalHomework/seg_word.py" />
         <option value="$PROJECT_DIR$/NLPFinalHomework/README.md" />
+        <option value="$PROJECT_DIR$/NLPFinalHomework/extractionFeature.py" />
       </list>
     </option>
   </component>
@@ -312,24 +320,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NLPFinalHomework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="load2python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="load2python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NLPFinalHomework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -481,7 +471,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLPFinalHomework/seg_word.py" />
+      <option name="SCRIPT_NAME" value="D:\python\load2python\NLPFinalHomework\segmentWord.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -1118,14 +1108,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/dataCut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NLPFinalHomework/test/testJieba.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1134,11 +1116,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/data/8w_cut_train.txt_seg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0357144">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NLPFinalHomework/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.27602905">
-            <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.092009686">
+            <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1156,17 +1146,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/data/8w_cut_train.txt_seg.txt">
+    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/dataCut.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0357144">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/seg_word.py">
+    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/extractionFeature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8507463">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/segmentWord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="e#89#101#0" expanded="true" />
