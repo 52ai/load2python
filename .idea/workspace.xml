@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NLPFinalHomework/createSpamDic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLPFinalHomework/README.md" afterPath="$PROJECT_DIR$/NLPFinalHomework/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NLPFinalHomework/segmentWord.py" afterPath="$PROJECT_DIR$/NLPFinalHomework/segmentText.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/NLPFinalHomework/segmentText.py" afterPath="$PROJECT_DIR$/NLPFinalHomework/textSeg.py" />
     </list>
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,8 +108,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="segmentText.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NLPFinalHomework/segmentText.py">
+      <file leaf-file-name="textSeg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NLPFinalHomework/textSeg.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
@@ -483,7 +480,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\load2python\NLPFinalHomework\segmentText.py" />
+      <option name="SCRIPT_NAME" value="D:\python\load2python\NLPFinalHomework\textSeg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -722,7 +719,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22617246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1137,7 +1134,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/segmentText.py">
+    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/textSeg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
