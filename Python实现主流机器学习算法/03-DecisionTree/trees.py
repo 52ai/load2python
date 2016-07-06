@@ -74,4 +74,19 @@ def majority_cnt(class_list):
     return sorted_class_count[0][0]
 
 
-
+def create_tree(data_set, labels):
+    class_list = [example[-1] for example in data_set]
+    if class_list.count(class_list[0]) == len(class_list):
+        return class_list[0]
+    if len(data_set[0]) == 1:
+        return majority_cnt(class_list)
+    best_feature = choose_best_feature_to_split(data_set)
+    best_feature_label = labels[best_feature]
+    my_tree = {best_feature_label: {}}
+    del(labels[best_feature])
+    feature_values = [example[best_feature] for example in data_set]
+    unique_values = set(feature_values)
+    for value in unique_values:
+        sub_labels = labels[:]
+        my_tree[best_feature_label][value] = create_tree(split_data_set(data_set, best_feature, value), sub_labels)
+    return my_tree
