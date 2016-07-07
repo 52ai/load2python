@@ -19,11 +19,14 @@ import time
 def extract_feature_5(input_file, output_file):
     time_start = time.clock()
     sms_len, sp_number, phone_number, bank_number, url = '0', '0', '0', '0', '0'
+    # sms_len, number, url = 'short', '0', '0'
     fr = open(input_file, 'r')
     fw = open(output_file, 'w')
     for line in fr.readlines():
         line = line.split('\t')
-        label = line[1]
+        classification = 'no'
+        if line[1] == '1':
+            classification = 'yes'
         sms_content = line[2]
         if len(sms_content.decode('utf8')) > 65:
             sms_len = '1'
@@ -34,8 +37,9 @@ def extract_feature_5(input_file, output_file):
         if "xxxxxxxxxxxxxxxxxxx" in sms_content:
             bank_number = '1'
         if "www" in sms_content:
+            print sms_content
             url = '1'
-        fw.write(sms_len+" "+sp_number+" "+phone_number+" "+bank_number+" "+url+" "+label+"\n")
+        fw.write(sp_number+"\t"+phone_number+"\t"+bank_number+"\t"+url+"\t"+sms_len+"\t"+classification+"\t"+"\n")
         sms_len, sp_number, phone_number, bank_number, url = '0', '0', '0', '0', '0'
     fw.close()
     fr.close()

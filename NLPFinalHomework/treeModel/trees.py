@@ -29,6 +29,24 @@ def create_data_set():
     return data_set, labels
 
 
+def create_data_set_sms(filename):
+    fr = open(filename, 'r')
+    # data_set_list = [line.strip().split('\t') for line in fr.readlines()]
+    # labels = ['sms_len', 'sp_number', 'phone_number', 'bank_number', 'url']
+    labels = ['sp_number', 'phone_number', 'bank_number', 'url', 'sms_len']
+    # labels = ['age', 'prescript', 'astigmatic', 'tearRate']
+    data_set_list = []
+    line_count = 0
+    for line in fr.readlines():
+        # print list(line.strip().split('\t'))
+        data_set_list.append(list(line.strip().split('\t')))
+        # print data_set_list
+        if line_count == 800000:
+            break
+        line_count += 1
+    return data_set_list, labels
+
+
 def split_data_set(data_set, axis, value):
     new_data_set = []
     for feature_vector in data_set:
@@ -57,6 +75,8 @@ def choose_best_feature_to_split(data_set):
         if info_gain > best_info_gain:
             best_info_gain = info_gain
             best_feature = i
+    if best_feature == -1:
+        best_feature = number_features - 1
     return best_feature
 
 
@@ -76,18 +96,32 @@ def majority_cnt(class_list):
 
 def create_tree(data_set, labels):
     class_list = [example[-1] for example in data_set]
+    # print "class_list:", class_list
+
     if class_list.count(class_list[0]) == len(class_list):
+        # print "class_list[0]:", class_list[0]
         return class_list[0]
     if len(data_set[0]) == 1:
+        # print "majority_cnt(class_list):", majority_cnt(class_list)
         return majority_cnt(class_list)
+
     best_feature = choose_best_feature_to_split(data_set)
     best_feature_label = labels[best_feature]
+    # print "best_feature:", labels[best_feature]
+
     my_tree = {best_feature_label: {}}
+    # print "best_feature_id:", best_feature
     del(labels[best_feature])
+    # print "labels:", labels
+
     feature_values = [example[best_feature] for example in data_set]
+    # print "feature_values:", feature_values
     unique_values = set(feature_values)
+    # print "unique_value:", unique_values
+
     for value in unique_values:
         sub_labels = labels[:]
+        # print "sub_labels:", sub_labels
         my_tree[best_feature_label][value] = create_tree(split_data_set(data_set, best_feature, value), sub_labels)
     return my_tree
 
@@ -100,9 +134,29 @@ def classify(input_tree, feature_labels, test_vec):
         if test_vec[feature_index] == key:
             if type(second_dict[key]).__name__ == 'dict':
                 class_label = classify(second_dict[key], feature_labels, test_vec)
-            else:
-                class_label = second_dict[key]
+            else: class_label = second_dict[key]
             return class_label
+
+
+def classify_sms(input_tree, feature_labels, test_vec):
+    class_label = 'no'
+    first_str = input_tree.keys()[0]
+    # print first_str
+    second_dict = input_tree[first_str]
+    # print second_dict
+    feature_index = feature_labels.index(first_str)
+    # print feature_index
+    key = test_vec[feature_index]
+    # print "key:", key
+    value_of_feature = second_dict[str(key)]
+    # print "value_of_feature:", value_of_feature
+
+    if isinstance(value_of_feature, dict):
+        class_label = classify_sms(value_of_feature, feature_labels, test_vec)
+    else:
+        # print "value_of_feature:",value_of_feature
+        class_label = value_of_feature
+    return class_label
 
 
 def store_tree(input_tree, filename):
