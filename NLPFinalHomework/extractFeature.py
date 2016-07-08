@@ -16,10 +16,25 @@ SMSLen,SPNumber,PhoneNumber,BankNumber,URL,SpamWord,【Classification】
 import time
 
 
+def extract_feature(sms_content):
+    # sms_len, sp_number, phone_number, bank_number, url
+    labels_list = [0, 0, 0, 0, 0]
+    if len(sms_content.decode('utf8')) > 65:
+        labels_list[0] = 1
+    if "xxxxxxx" in sms_content:
+        labels_list[1] = 1
+    if "xxxxxxxxxxx" in sms_content:
+        labels_list[2] = 1
+    if "xxxxxxxxxxxxxxxxxxx" in sms_content:
+        labels_list[3] = 1
+    if "www" in sms_content:
+        labels_list[4] = 1
+    return labels_list
+
+
 def extract_feature_5(input_file, output_file):
     time_start = time.clock()
     sms_len, sp_number, phone_number, bank_number, url = '0', '0', '0', '0', '0'
-    # sms_len, number, url = 'short', '0', '0'
     fr = open(input_file, 'r')
     fw = open(output_file, 'w')
     for line in fr.readlines():
@@ -37,7 +52,7 @@ def extract_feature_5(input_file, output_file):
         if "xxxxxxxxxxxxxxxxxxx" in sms_content:
             bank_number = '1'
         if "www" in sms_content:
-            print sms_content
+            # print sms_content
             url = '1'
         fw.write(sp_number+"\t"+phone_number+"\t"+bank_number+"\t"+url+"\t"+sms_len+"\t"+classification+"\t"+"\n")
         sms_len, sp_number, phone_number, bank_number, url = '0', '0', '0', '0', '0'
