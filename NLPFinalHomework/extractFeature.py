@@ -56,5 +56,19 @@ if __name__ == "__main__":
           "output: %s" % (file_for_input, file_for_output)
     print "Task had done!Time consuming is : %f s" % time_consuming
     print "- - - - - - - - - - - - - - - - - - - - - - - - - - - "
-
-
+    file_for_input = 'data\\2w_cut_test.txt'
+    file_for_output = 'data\\2w_cut_test.txt_feature.txt'
+    time_consuming = extract_feature_5(file_for_input,file_for_output)
+    print "Task 2:\n" \
+          "input:%s \n" \
+          "output: %s" % (file_for_input, file_for_output)
+    print "Task had done!Time consuming is : %f s" % time_consuming
+    print "- - - - - - - - - - - - - - - - - - - - - - - - - - - "
+    file_for_input = 'data\\80w_train.txt'
+    file_for_output = 'data\\80w_train.txt_feature.txt'
+    time_consuming = extract_feature_5(file_for_input,file_for_output)
+    print "Task 3:\n" \
+          "input:%s \n" \
+          "output: %s" % (file_for_input, file_for_output)
+    print "Task had done!Time consuming is : %f s" % time_consuming
+    print "- - - - - - - - - - - - - - - - - - - - - - - - - - - "
