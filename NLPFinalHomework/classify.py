@@ -44,6 +44,7 @@ if __name__ == "__main__":
     print "分类准确率为： %f" % correct_rate
     """
     my_tree = grab_tree('data\\classifierStorage_sms.txt')  # 载入决策树模型
+    # my_tree = grab_tree('/Users/wayne/Documents/Code/load2python/NLPFinalHomework/data/classifierStorage_sms.txt')
     # labels = ['sms_len', 'sp_number', 'phone_number', 'bank_number', 'url']
     labels = ['sp_number', 'phone_number', 'bank_number', 'url', 'sms_len']  # 定义好分类使用的标签
     # print my_tree
