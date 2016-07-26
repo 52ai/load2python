@@ -7,10 +7,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/bayes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/10.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/11.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/12.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/13.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/14.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/15.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/16.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/17.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/18.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/19.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/20.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/21.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/22.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/23.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/24.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/25.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/9.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/10.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/11.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/12.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/13.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/14.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/15.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/16.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/17.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/18.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/19.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/20.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/21.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/22.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/23.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/24.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/25.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/spam/9.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testBayesClassify.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testCreateVec.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NLPFinalHomework/classify.py" afterPath="$PROJECT_DIR$/NLPFinalHomework/classify.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python实现主流机器学习算法/README.md" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,52 +76,55 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/load2python$moreAbstraction.coverage" NAME="moreAbstraction Coverage Results" MODIFIED="1466426321088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
     <SUITE FILE_PATH="coverage/load2python$ex9.coverage" NAME="ex9 Coverage Results" MODIFIED="1461751514141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$testChooseBestFeatureToSplite.coverage" NAME="testChooseBestFeatureToSplite Coverage Results" MODIFIED="1467466468693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
-    <SUITE FILE_PATH="coverage/load2python$4_string.coverage" NAME="4_string Coverage Results" MODIFIED="1467813029819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
     <SUITE FILE_PATH="coverage/load2python$testHandwritingVector.coverage" NAME="testHandwritingVector Coverage Results" MODIFIED="1467393552326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
     <SUITE FILE_PATH="coverage/load2python$testStoreTree.coverage" NAME="testStoreTree Coverage Results" MODIFIED="1467878981797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
+    <SUITE FILE_PATH="coverage/load2python$bayes.coverage" NAME="bayes Coverage Results" MODIFIED="1469520440498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
     <SUITE FILE_PATH="coverage/load2python$module_as_scripts.coverage" NAME="module_as_scripts Coverage Results" MODIFIED="1467379667677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Module" />
-    <SUITE FILE_PATH="coverage/load2python$1.coverage" NAME="1 Coverage Results" MODIFIED="1466426332844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/load2python$ex8.coverage" NAME="ex8 Coverage Results" MODIFIED="1461748723610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$testJieba.coverage" NAME="testJieba Coverage Results" MODIFIED="1467795727413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
     <SUITE FILE_PATH="coverage/load2python$testNumPy.coverage" NAME="testNumPy Coverage Results" MODIFIED="1466735983265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法" />
     <SUITE FILE_PATH="coverage/load2python$testSplitDataSet.coverage" NAME="testSplitDataSet Coverage Results" MODIFIED="1467465014315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
     <SUITE FILE_PATH="coverage/load2python$testMatplotlib.coverage" NAME="testMatplotlib Coverage Results" MODIFIED="1467380610733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
     <SUITE FILE_PATH="coverage/load2python$ex6.coverage" NAME="ex6 Coverage Results" MODIFIED="1461747936847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1467018874849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
     <SUITE FILE_PATH="coverage/load2python$ex3.coverage" NAME="ex3 Coverage Results" MODIFIED="1461729441380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$createSpamDic.coverage" NAME="createSpamDic Coverage Results" MODIFIED="1467871183099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
     <SUITE FILE_PATH="coverage/load2python$testTreePlotter.coverage" NAME="testTreePlotter Coverage Results" MODIFIED="1467790820319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
-    <SUITE FILE_PATH="coverage/load2python$0_helloword.coverage" NAME="0_helloword Coverage Results" MODIFIED="1461691773654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
-    <SUITE FILE_PATH="coverage/load2python$testDatingClass.coverage" NAME="testDatingClass Coverage Results" MODIFIED="1467389696620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
     <SUITE FILE_PATH="coverage/load2python$c_29_get_object_info.coverage" NAME="c_29_get_object_info Coverage Results" MODIFIED="1461691788150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
-    <SUITE FILE_PATH="coverage/load2python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1467793593775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/jieba/test" />
-    <SUITE FILE_PATH="coverage/load2python$testHandwritingClass.coverage" NAME="testHandwritingClass Coverage Results" MODIFIED="1467395196672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
-    <SUITE FILE_PATH="coverage/load2python$calculate__1_.coverage" NAME="calculate (1) Coverage Results" MODIFIED="1467379998140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
     <SUITE FILE_PATH="coverage/load2python$calculate.coverage" NAME="calculate Coverage Results" MODIFIED="1468854615419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
     <SUITE FILE_PATH="coverage/load2python$seg_word.coverage" NAME="seg_word Coverage Results" MODIFIED="1467803340793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
-    <SUITE FILE_PATH="coverage/load2python$testEntropyCalc.coverage" NAME="testEntropyCalc Coverage Results" MODIFIED="1467463616845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
-    <SUITE FILE_PATH="coverage/load2python$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1461728264348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
+    <SUITE FILE_PATH="coverage/load2python$testBayesClassify.coverage" NAME="testBayesClassify Coverage Results" MODIFIED="1469522211864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
     <SUITE FILE_PATH="coverage/load2python$ex4.coverage" NAME="ex4 Coverage Results" MODIFIED="1461730243157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$Main.coverage" NAME="Main Coverage Results" MODIFIED="1463567512407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatrixAnalysis大作业" />
-    <SUITE FILE_PATH="coverage/load2python$sorted.coverage" NAME="sorted Coverage Results" MODIFIED="1467648369096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Function" />
-    <SUITE FILE_PATH="coverage/load2python$main.coverage" NAME="main Coverage Results" MODIFIED="1466961509619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
     <SUITE FILE_PATH="coverage/load2python$c_26_opp.coverage" NAME="c_26_opp Coverage Results" MODIFIED="1461691793735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
     <SUITE FILE_PATH="coverage/load2python$trees.coverage" NAME="trees Coverage Results" MODIFIED="1467902412249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
     <SUITE FILE_PATH="coverage/load2python$testCreateTree.coverage" NAME="testCreateTree Coverage Results" MODIFIED="1467897046856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
     <SUITE FILE_PATH="coverage/load2python$extractFeature.coverage" NAME="extractFeature Coverage Results" MODIFIED="1467952194134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
-    <SUITE FILE_PATH="coverage/load2python$ex2.coverage" NAME="ex2 Coverage Results" MODIFIED="1461728712787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$testJieba__1_.coverage" NAME="testJieba (1) Coverage Results" MODIFIED="1467801295318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/test" />
     <SUITE FILE_PATH="coverage/load2python$ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1461731207247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$testClassify__1_.coverage" NAME="testClassify (1) Coverage Results" MODIFIED="1467878902179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
     <SUITE FILE_PATH="coverage/load2python$dataCut.coverage" NAME="dataCut Coverage Results" MODIFIED="1467790913425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
     <SUITE FILE_PATH="coverage/load2python$2_dataType.coverage" NAME="2_dataType Coverage Results" MODIFIED="1461691760890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
-    <SUITE FILE_PATH="coverage/load2python$ex7.coverage" NAME="ex7 Coverage Results" MODIFIED="1461748347541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$dic_read.coverage" NAME="dic_read Coverage Results" MODIFIED="1467638055464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Dictionary" />
-    <SUITE FILE_PATH="coverage/load2python$classify.coverage" NAME="classify Coverage Results" MODIFIED="1468892323767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
     <SUITE FILE_PATH="coverage/load2python$ex10.coverage" NAME="ex10 Coverage Results" MODIFIED="1461752543489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
+    <SUITE FILE_PATH="coverage/load2python$moreAbstraction.coverage" NAME="moreAbstraction Coverage Results" MODIFIED="1466426321088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
+    <SUITE FILE_PATH="coverage/load2python$testChooseBestFeatureToSplite.coverage" NAME="testChooseBestFeatureToSplite Coverage Results" MODIFIED="1467466468693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
+    <SUITE FILE_PATH="coverage/load2python$4_string.coverage" NAME="4_string Coverage Results" MODIFIED="1467813029819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
+    <SUITE FILE_PATH="coverage/load2python$testCreateVec.coverage" NAME="testCreateVec Coverage Results" MODIFIED="1469520445906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+    <SUITE FILE_PATH="coverage/load2python$1.coverage" NAME="1 Coverage Results" MODIFIED="1466426332844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/load2python$ex8.coverage" NAME="ex8 Coverage Results" MODIFIED="1461748723610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
+    <SUITE FILE_PATH="coverage/load2python$testJieba.coverage" NAME="testJieba Coverage Results" MODIFIED="1467795727413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
+    <SUITE FILE_PATH="coverage/load2python$createSpamDic.coverage" NAME="createSpamDic Coverage Results" MODIFIED="1467871183099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
+    <SUITE FILE_PATH="coverage/load2python$0_helloword.coverage" NAME="0_helloword Coverage Results" MODIFIED="1461691773654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
+    <SUITE FILE_PATH="coverage/load2python$testDatingClass.coverage" NAME="testDatingClass Coverage Results" MODIFIED="1467389696620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
+    <SUITE FILE_PATH="coverage/load2python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1467793593775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/jieba/test" />
+    <SUITE FILE_PATH="coverage/load2python$testHandwritingClass.coverage" NAME="testHandwritingClass Coverage Results" MODIFIED="1467395196672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
+    <SUITE FILE_PATH="coverage/load2python$calculate__1_.coverage" NAME="calculate (1) Coverage Results" MODIFIED="1467379998140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
+    <SUITE FILE_PATH="coverage/load2python$testEntropyCalc.coverage" NAME="testEntropyCalc Coverage Results" MODIFIED="1467463616845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
+    <SUITE FILE_PATH="coverage/load2python$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1461728264348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
+    <SUITE FILE_PATH="coverage/load2python$Main.coverage" NAME="Main Coverage Results" MODIFIED="1463567512407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatrixAnalysis大作业" />
+    <SUITE FILE_PATH="coverage/load2python$sorted.coverage" NAME="sorted Coverage Results" MODIFIED="1467648369096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Function" />
+    <SUITE FILE_PATH="coverage/load2python$main.coverage" NAME="main Coverage Results" MODIFIED="1466961509619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
+    <SUITE FILE_PATH="coverage/load2python$ex2.coverage" NAME="ex2 Coverage Results" MODIFIED="1461728712787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
+    <SUITE FILE_PATH="coverage/load2python$ex7.coverage" NAME="ex7 Coverage Results" MODIFIED="1461748347541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
+    <SUITE FILE_PATH="coverage/load2python$classify.coverage" NAME="classify Coverage Results" MODIFIED="1468892323767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
     <SUITE FILE_PATH="coverage/load2python$testClassify.coverage" NAME="testClassify Coverage Results" MODIFIED="1467902929496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
     <SUITE FILE_PATH="coverage/load2python$trainModel.coverage" NAME="trainModel Coverage Results" MODIFIED="1467952213163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
   </component>
@@ -89,12 +144,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <first_editor relative-caret-position="435">
+                <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -102,6 +157,49 @@
           </provider>
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bayes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/bayes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testBayesClassify.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testBayesClassify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="e#100#112#0" expanded="true" />
+                <marker date="1469522211000" expanded="true" signature="155:895" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testCreateVec.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testCreateVec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -120,10 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BeginningPython/Module/module_as_scripts.py" />
-        <option value="$PROJECT_DIR$/BeginningPython/Module/fibo.py" />
-        <option value="$PROJECT_DIR$/BeginningPython/Module/__init__.py" />
-        <option value="$PROJECT_DIR$/BeginningPython/Module/calculate.py" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN/test.py" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN/kNN.py" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN/testMatplotlib.py" />
@@ -171,6 +265,10 @@
         <option value="$PROJECT_DIR$/NLPFinalHomework/classify.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/README.md" />
+        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/__init__.py" />
+        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testCreateVec.py" />
+        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testBayesClassify.py" />
+        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/bayes.py" />
       </list>
     </option>
   </component>
@@ -258,6 +356,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="load2python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="load2python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python实现主流机器学习算法" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04-Bayes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -278,6 +394,13 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+      <recent name="D:\python\load2python\NLPFinalHomework\data" />
+      <recent name="D:\python\load2python\NLPFinalHomework" />
+      <recent name="D:\python\load2python\Python实现主流机器学习算法\03-DecisionTree" />
+      <recent name="D:\python\load2python\Python实现主流机器学习算法\02-KNN" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\python\load2python\NLPFinalHomework\treeModel" />
       <recent name="D:\python\load2python\NLPFinalHomework\test" />
@@ -285,68 +408,8 @@
       <recent name="D:\python\load2python\Python实现主流机器学习算法" />
       <recent name="D:\python\load2python\Python实现主流机器学习算法\02-KNN" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\python\load2python\NLPFinalHomework\data" />
-      <recent name="D:\python\load2python\NLPFinalHomework" />
-      <recent name="D:\python\load2python\Python实现主流机器学习算法\03-DecisionTree" />
-      <recent name="D:\python\load2python\Python实现主流机器学习算法\02-KNN" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.classify">
-    <configuration default="false" name="extractFeature" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLPFinalHomework" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="load2python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLPFinalHomework/extractFeature.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="trainModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLPFinalHomework" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="load2python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLPFinalHomework/trainModel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testClassify" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="load2python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLPFinalHomework/treeModel/testClassify.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.testBayesClassify">
     <configuration default="false" name="classify" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -379,6 +442,60 @@
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BeginningPython/calculate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testCreateVec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="load2python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testCreateVec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="load2python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/bayes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testBayesClassify" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="load2python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testBayesClassify.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -592,19 +709,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.extractFeature" />
-      <item index="1" class="java.lang.String" itemvalue="Python.trainModel" />
-      <item index="2" class="java.lang.String" itemvalue="Python.testClassify" />
-      <item index="3" class="java.lang.String" itemvalue="Python.classify" />
-      <item index="4" class="java.lang.String" itemvalue="Python.calculate" />
+      <item index="0" class="java.lang.String" itemvalue="Python.classify" />
+      <item index="1" class="java.lang.String" itemvalue="Python.calculate" />
+      <item index="2" class="java.lang.String" itemvalue="Python.testCreateVec" />
+      <item index="3" class="java.lang.String" itemvalue="Python.bayes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testBayesClassify" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.classify" />
-        <item index="1" class="java.lang.String" itemvalue="Python.calculate" />
-        <item index="2" class="java.lang.String" itemvalue="Python.trainModel" />
-        <item index="3" class="java.lang.String" itemvalue="Python.extractFeature" />
-        <item index="4" class="java.lang.String" itemvalue="Python.testClassify" />
+        <item index="0" class="java.lang.String" itemvalue="Python.testBayesClassify" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testCreateVec" />
+        <item index="2" class="java.lang.String" itemvalue="Python.bayes" />
+        <item index="3" class="java.lang.String" itemvalue="Python.classify" />
+        <item index="4" class="java.lang.String" itemvalue="Python.calculate" />
       </list>
     </recent_temporary>
   </component>
@@ -635,27 +752,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270809" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2313253" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2313253" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268921" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25060242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="383" y="487" width="1283" height="348" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24750277" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14578313" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19277108" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3971061" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6688418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25087926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="383" y="487" width="1283" height="348" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3971061" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -682,56 +799,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN/testDatingclass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree/testSplitDataSet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeginningPython/Dictionary/dic_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN/kNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeginningPython/Function/sorted.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/jieba/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/jieba/README.md" />
-    <entry file="file://$PROJECT_DIR$/Python基础学习/3_variable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python基础学习/4_plus_xiaoming.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -979,13 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NLPFinalHomework/extractFeature.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
@@ -1021,6 +1081,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/testNumPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1030,8 +1106,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <first_editor relative-caret-position="435">
+            <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1039,6 +1115,67 @@
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixAnalysis/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1998">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#84#113#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testCreateVec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testBayesClassify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#100#112#0" expanded="true" />
+            <marker date="1469522211000" expanded="true" signature="155:895" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/email/ham/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
