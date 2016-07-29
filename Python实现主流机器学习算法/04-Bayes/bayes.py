@@ -88,6 +88,85 @@ def classify_bayes(vec_to_classify, p0_vec, p1_vec, p_class1):
         return 0
 
 
+def text_parse(big_string):
+    import re
+    list_of_tokens = re.split(r'\\W*', big_string)
+    return [tok.lower() for tok in list_of_tokens if len(tok) > 2]
+
+
+# 下面是RSS源分类器及高频词去除函数
+
+
+def calc_most_freq(vocablist, full_text):
+    import operator
+    freq_dict = {}
+    for token in vocablist:
+        freq_dict[token] = full_text.count(token)
+    sorted_freq = sorted(freq_dict.iteritems(), key=operator.itemgetter(1), reverse=True)
+    return sorted_freq[:30]
+
+
+def local_words(feed1, feed0):
+    import feedparser
+    doc_list = []
+    class_list = []
+    full_text = []
+    min_len = min((len(feed1['entries'])), len(feed0['entries']))
+    print "min_len",min_len
+    for i in range(min_len):
+        word_list = text_parse(feed1['entries'][i]['summary'])
+        doc_list.append(word_list)
+        full_text.extend(word_list)
+        class_list.append(1)
+        word_list = text_parse(feed0['entries'][i]['summary'])
+        doc_list.append(word_list)
+        full_text.extend(word_list)
+        class_list.append(0)
+    vocab_list = create_vocab_list(doc_list)
+    print vocab_list
+    top30_words = calc_most_freq(vocab_list, full_text)
+    for pairw in top30_words:
+        if pairw[0] in vocab_list:
+            vocab_list.remove(pairw[0])
+    training_set = range(2*min_len)
+    test_set = []
+    for i in range(20):
+        rand_index = int(random.uniform(0, len(training_set)))
+        test_set.append(training_set[rand_index])
+        del(training_set[rand_index])
+    train_mat = []
+    train_classes = []
+    for doc_index in training_set:
+        train_mat.append(bag_of_words_to_vec(vocab_list, doc_list[doc_index]))
+        train_classes.append(class_list[doc_index])
+    p0v, p1v, pspam = train_bayes0(array(train_mat), array(train_classes))
+    error_cnt = 0
+    for doc_index in test_set:
+        word_vector = bag_of_words_to_vec(vocab_list, doc_list[doc_index])
+        if classify_bayes(array(word_vector), p0v,p1v, pspam) != class_list[doc_index]:
+            error_cnt += 1
+    print "The error rate is:", float(error_cnt) / len(test_set)
+    return vocab_list, p0v, p1v
+
+
+def get_top_words(ny, sf):
+    import operator
+    vocab_list, p0v, p1v = local_words(ny, sf)
+    top_nf = []
+    top_sf = []
+    for i in range(len(p0v)):
+        if p0v[i] > -6.0:
+            top_sf.append((vocab_list[i], p0v[i]))
+        if p1v[i] > -6.0:
+            top_nf.append((vocab_list[i], p1v[i]))
+    sorted_sf = sorted(top_sf, key=lambda pair:pair[1], reverse=True)
+    print "SF*SF*SF*SF*SF*SF*SF"
+    for item in sorted_sf:
+        print item[0]
+    sorted_ny = sorted(top_nf, key=lambda pair:pair[1], reverse=True)
+    print "NY*NY*NY*NY*NY*NY*NY"
+    for item in sorted_ny:
+        print item[0]
 
 
 
