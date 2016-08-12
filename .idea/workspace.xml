@@ -6,14 +6,7 @@
     <bookmark url="file://$PROJECT_DIR$/NLPFinalHomework/dataCut.py" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres/logRegres.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres/testLogRegres.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres/testSet.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python实现主流机器学习算法/README.md" afterPath="$PROJECT_DIR$/Python实现主流机器学习算法/README.md" />
-    </list>
+    <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="" />
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -223,6 +216,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="load2python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="load2python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="load2python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
