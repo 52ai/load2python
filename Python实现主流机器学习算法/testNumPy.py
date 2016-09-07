@@ -9,3 +9,4 @@ myEye = randMat * invRandMat
 print myEye
 
 print myEye - eye(4)  # seek error value  && eye(4) create a 4*4 identity matrix
+
