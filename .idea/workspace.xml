@@ -96,8 +96,8 @@
       <file leaf-file-name="testNumPy.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/testNumPy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN/testHandwritingVector.py" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN/digits/testHandwritingClass.py" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN/testHandwritingClass.py" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree/testEntropyCalc.py" />
@@ -169,6 +168,7 @@
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres/__init__.py" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres/testLogRegres.py" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres/logRegres.py" />
+        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/testNumPy.py" />
       </list>
     </option>
   </component>
@@ -629,7 +629,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24038461" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11057692" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24750277" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19277108" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3120482" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6688418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1052,8 +1052,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/testNumPy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
