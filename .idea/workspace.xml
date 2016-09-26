@@ -7,10 +7,664 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/calc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/sample_ui.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/testTkinter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/GetingStartedGUI/demo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/GetingStartedGUI/demo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/GetingStartedGUI/test.txt" afterPath="$PROJECT_DIR$/PythonGUI学习/GetingStartedGUI/test.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/GetingStartedGUI/usingSizers.py" afterPath="$PROJECT_DIR$/PythonGUI学习/GetingStartedGUI/usingSizers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/README.md" afterPath="$PROJECT_DIR$/PythonGUI学习/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/TerrestrialFTSGUI/login.py" afterPath="$PROJECT_DIR$/PythonGUI学习/TerrestrialFTSGUI/login.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/TerrestrialFTSGUI/main.py" afterPath="$PROJECT_DIR$/PythonGUI学习/TerrestrialFTSGUI/main.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/AUI_DockingWindowMgr.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/AUI_DockingWindowMgr.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/AUI_MDI.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/AUI_MDI.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/AUI_Notebook.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/AUI_Notebook.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/About.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/About.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/AboutBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/AboutBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ActiveXWrapper_Acrobat.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ActiveXWrapper_Acrobat.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ActiveXWrapper_IE.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ActiveXWrapper_IE.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ActiveX_FlashWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ActiveX_FlashWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ActiveX_IEHtmlWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ActiveX_IEHtmlWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ActiveX_PDFWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ActiveX_PDFWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/AdjustChannels.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/AdjustChannels.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/AlphaDrawing.pyw" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/AlphaDrawing.pyw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/AnalogClock.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/AnalogClock.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/AnimateCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/AnimateCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ArtProvider.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ArtProvider.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/BitmapButton.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/BitmapButton.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/BitmapComboBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/BitmapComboBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/BitmapFromBuffer.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/BitmapFromBuffer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Button.pyw" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Button.pyw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Cairo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Cairo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Cairo_Snippets.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Cairo_Snippets.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Calendar.pyw" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Calendar.pyw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/CalendarCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/CalendarCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/CheckBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/CheckBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/CheckListBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/CheckListBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/CheckListCtrlMixin.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/CheckListCtrlMixin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Choice.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Choice.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Choicebook.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Choicebook.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/CollapsiblePane.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/CollapsiblePane.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ColorPanel.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ColorPanel.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ColourDB.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ColourDB.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ColourDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ColourDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ColourSelect.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ColourSelect.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ComboBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ComboBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ComboCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ComboCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ComboTreeBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ComboTreeBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/CommandLinkButton.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/CommandLinkButton.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ContextHelp.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ContextHelp.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Cursor.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Cursor.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/CustomDragAndDrop.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/CustomDragAndDrop.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DVC_CustomRenderer.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DVC_CustomRenderer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DVC_DataViewModel.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DVC_DataViewModel.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DVC_IndexListModel.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DVC_IndexListModel.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DVC_ListCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DVC_ListCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DVC_TreeCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DVC_TreeCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DatePickerCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DatePickerCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DelayedResult.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DelayedResult.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Dialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Dialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DialogUnits.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DialogUnits.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DirDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DirDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DragAndDrop.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DragAndDrop.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DragImage.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DragImage.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DragScroller.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DragScroller.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DrawXXXList.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DrawXXXList.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/DynamicSashWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/DynamicSashWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/EditableListBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/EditableListBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Editor.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Editor.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/EventManager.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/EventManager.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ExpandoTextCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ExpandoTextCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/FancyText.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/FancyText.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/FileBrowseButton.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/FileBrowseButton.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/FileDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/FileDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/FileHistory.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/FileHistory.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/FindReplaceDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/FindReplaceDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/FloatBar.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/FloatBar.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/FloatCanvas.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/FloatCanvas.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/FontDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/FontDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/FontEnumerator.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/FontEnumerator.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Frame.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Frame.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GIFAnimationCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GIFAnimationCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GLCanvas.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GLCanvas.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Gauge.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Gauge.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GenericButtons.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GenericButtons.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GenericDirCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GenericDirCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GetMouseState.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GetMouseState.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GraphicsContext.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GraphicsContext.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GraphicsGradient.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GraphicsGradient.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Grid.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Grid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GridBagSizer.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GridBagSizer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GridCustEditor.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GridCustEditor.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GridCustTable.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GridCustTable.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GridDragAndDrop.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GridDragAndDrop.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GridDragable.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GridDragable.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GridEnterHandler.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GridEnterHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GridHugeTable.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GridHugeTable.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GridLabelRenderer.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GridLabelRenderer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GridSimple.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GridSimple.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/GridStdEdRend.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/GridStdEdRend.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Grid_MegaExample.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Grid_MegaExample.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/HTML2_WebView.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/HTML2_WebView.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/HtmlWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/HtmlWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/I18N.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/I18N.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Image.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Image.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ImageAlpha.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ImageAlpha.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ImageBrowser.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ImageBrowser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ImageFromStream.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ImageFromStream.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Img2PyArtProvider.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Img2PyArtProvider.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/InfoBar.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/InfoBar.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/IntCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/IntCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ItemsPicker.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ItemsPicker.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Joystick.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Joystick.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/KeyEvents.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/KeyEvents.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/LEDNumberCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/LEDNumberCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/LayoutAnchors.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/LayoutAnchors.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/LayoutConstraints.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/LayoutConstraints.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Layoutf.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Layoutf.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ListBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ListBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ListCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ListCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ListCtrl_edit.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ListCtrl_edit.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ListCtrl_virtual.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ListCtrl_virtual.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Listbook.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Listbook.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MDIDemo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MDIDemo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MDISashDemo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MDISashDemo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MDIWindows.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MDIWindows.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MVCTree.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MVCTree.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Main.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Main.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Mask.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Mask.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MaskedEditControls.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MaskedEditControls.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MaskedNumCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MaskedNumCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MediaCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MediaCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Menu.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Menu.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MessageDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MessageDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MimeTypesManager.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MimeTypesManager.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MiniFrame.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MiniFrame.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MouseGestures.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MouseGestures.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MultiChoiceDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MultiChoiceDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MultiSash.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MultiSash.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MultiSplitterWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MultiSplitterWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/MultipleChoiceDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/MultipleChoiceDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Notebook.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Notebook.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/OGL.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/OGL.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/OwnerDrawnComboBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/OwnerDrawnComboBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PDFViewer.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PDFViewer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PageSetupDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PageSetupDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PenAndBrushStyles.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PenAndBrushStyles.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Pickers.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Pickers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PlateButton.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PlateButton.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PopupControl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PopupControl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PopupMenu.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PopupMenu.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PopupWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PopupWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PrintDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PrintDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PrintFramework.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PrintFramework.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Process.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Process.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ProgressDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ProgressDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PropertyGrid.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PropertyGrid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PseudoDC.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PseudoDC.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PyColourChooser.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PyColourChooser.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PyCrust.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PyCrust.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PyPlot.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PyPlot.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PyShell.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PyShell.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/PythonEvents.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/PythonEvents.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/README.txt" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/RadioBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/RadioBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/RadioButton.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/RadioButton.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/RawBitmapAccess.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/RawBitmapAccess.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/RendererNative.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/RendererNative.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ResizeWidget.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ResizeWidget.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/RichTextCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/RichTextCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/RightTextCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/RightTextCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/RowColSizer.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/RowColSizer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/SashWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/SashWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ScrolledMessageDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ScrolledMessageDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ScrolledPanel.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ScrolledPanel.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ScrolledWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ScrolledWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/SearchCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/SearchCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ShapedWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ShapedWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/SingleChoiceDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/SingleChoiceDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/SizedControls.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/SizedControls.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Sizers.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Sizers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Slider.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Slider.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Sound.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Sound.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/SpinButton.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/SpinButton.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/SpinCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/SpinCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/SpinCtrlDouble.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/SpinCtrlDouble.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/SplitTree.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/SplitTree.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/SplitterWindow.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/SplitterWindow.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/StandardPaths.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/StandardPaths.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/StaticBitmap.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/StaticBitmap.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/StaticBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/StaticBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/StaticText.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/StaticText.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/StatusBar.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/StatusBar.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/StockButtons.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/StockButtons.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/StyledTextCtrl_1.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/StyledTextCtrl_1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/StyledTextCtrl_2.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/StyledTextCtrl_2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/SystemSettings.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/SystemSettings.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/TablePrint.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/TablePrint.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/TestTable.txt" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/TestTable.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/TextCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/TextCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/TextEntryDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/TextEntryDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Threads.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Threads.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Throbber.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Throbber.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Ticker.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Ticker.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/TimeCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/TimeCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Timer.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Timer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ToggleButton.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ToggleButton.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/ToolBar.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/ToolBar.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Toolbook.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Toolbook.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/TreeCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/TreeCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/TreeListCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/TreeListCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/TreeMixin.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/TreeMixin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Treebook.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Treebook.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/UIActionSimulator.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/UIActionSimulator.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/URLDragAndDrop.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/URLDragAndDrop.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Unicode.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Unicode.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/VListBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/VListBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Validator.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Validator.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/Wizard.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/Wizard.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/WrapSizer.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/WrapSizer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/XMLtreeview.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/XMLtreeview.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/XmlResource.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/XmlResource.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/XmlResourceHandler.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/XmlResourceHandler.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/XmlResourceSubclass.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/XmlResourceSubclass.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/AGWInfoBar.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/AGWInfoBar.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/AUI.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/AUI.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/AdvancedSplash.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/AdvancedSplash.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/AquaButton.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/AquaButton.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/BalloonTip.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/BalloonTip.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/ButtonPanel.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/ButtonPanel.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/CubeColourDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/CubeColourDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/CustomTreeCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/CustomTreeCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/FlatMenu.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/FlatMenu.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/FlatNotebook.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/FlatNotebook.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/FloatSpin.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/FloatSpin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/FoldPanelBar.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/FoldPanelBar.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/FourWaySplitter.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/FourWaySplitter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/GenericMessageDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/GenericMessageDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/GradientButton.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/GradientButton.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/HyperLinkCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/HyperLinkCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/HyperTreeList.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/HyperTreeList.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/KnobCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/KnobCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/LabelBook.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/LabelBook.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/ListCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/ListCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/MacLargeDemo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/MacLargeDemo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/MultiDirDialog.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/MultiDirDialog.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/PeakMeter.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/PeakMeter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/PersistentControls.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/PersistentControls.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/PieCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/PieCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/PyBusyInfo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/PyBusyInfo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/PyCollapsiblePane.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/PyCollapsiblePane.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/PyGauge.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/PyGauge.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/PyProgress.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/PyProgress.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/RibbonBar.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/RibbonBar.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/RulerCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/RulerCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/ShapedButton.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/ShapedButton.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/ShortcutEditor.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/ShortcutEditor.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/SpeedMeter.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/SpeedMeter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/SuperToolTip.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/SuperToolTip.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/ThumbnailCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/ThumbnailCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/ToasterBox.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/ToasterBox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/UltimateListCtrl.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/UltimateListCtrl.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/UltimateListIconDemo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/UltimateListIconDemo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/UltimateListListDemo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/UltimateListListDemo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/UltimateReportDemo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/UltimateReportDemo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/UltimateVirtualDemo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/UltimateVirtualDemo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/Windows7Explorer_Contents.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/Windows7Explorer_Contents.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/XLSGrid.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/XLSGrid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/ZoomBar.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/ZoomBar.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/__demo__.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/__demo__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Explorer96.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Explorer96.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Explorer96Flip40.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Explorer96Flip40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Folder96.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Folder96.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Folder96Flip40.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Folder96Flip40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Monitor96.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Monitor96.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Monitor96Flip40.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Monitor96Flip40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Music96.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Music96.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Music96Flip40.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Music96Flip40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Photo96.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Photo96.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Photo96Flip40.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Photo96Flip40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Search96.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Search96.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Search96Flip40.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Search96Flip40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Wizard96.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Wizard96.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/Wizard96Flip40.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/Wizard96Flip40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/advancedsplash.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/advancedsplash.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/aquabutton.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/aquabutton.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/aquachecked.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/aquachecked.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/aquaflagged.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/aquaflagged.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/aquanotchecked.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/aquanotchecked.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/aquanotflagged.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/aquanotflagged.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/canada.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/canada.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/checked.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/checked.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/columns.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/columns.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/contexthelp-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/contexthelp-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/contexthelp.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/contexthelp.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/copy.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/copy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/cut.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/editcopy.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/editcopy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/editcut.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/editcut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/editpaste.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/editpaste.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/empty_icon.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/empty_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/exit-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/exit-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/exit.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/exit.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/ffwd.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/ffwd.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/ffwddisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/ffwddisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/field-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/field-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/filenew.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/filenew.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/fileopen.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/fileopen.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/filesave.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/filesave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/flagged.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/flagged.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/folder.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/folder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/folder_new.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/folder_new.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/ghost.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/ghost.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/gradientbutton.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/gradientbutton.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/help-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/help-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/help.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/help.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/italy.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/italy.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/lbadd.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/lbadd.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/lbcharge.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/lbcharge.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/lbdecrypted.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/lbdecrypted.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/lbnews.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/lbnews.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/lbroll.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/lbroll.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/minus1.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/minus1.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/minus2.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/minus2.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/minus3.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/minus3.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/minus4.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/minus4.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/minus5.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/minus5.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/month-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/month-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/new_file.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/new_file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/new_folder.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/new_folder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/notchecked.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/notchecked.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/notflagged.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/notflagged.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/ok-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/ok-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/open_folder.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/open_folder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/paste.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/paste.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/pause.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/pause.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/pausedisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/pausedisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/play.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/play.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/playdisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/playdisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/plus1.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/plus1.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/plus2.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/plus2.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/plus3.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/plus3.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/plus4.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/plus4.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/plus5.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/plus5.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/record.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/record.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/recorddisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/recorddisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/rewind.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/rewind.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/rewinddisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/rewinddisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/round.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/round.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/save.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/save.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/separator.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/separator.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/separatorflip.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/separatorflip.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/smfuel.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/smfuel.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/smpi.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/smpi.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/smtemp.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/smtemp.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/stop.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/stop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/stopdisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/stopdisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/sttbutton.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/sttbutton.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/sttfont.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/sttfont.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/sttheader.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/sttheader.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/stthelp.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/stthelp.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/view1.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/view1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/view2.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/view2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/view_choose.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/view_choose.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/view_detailed.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/view_detailed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/view_icon.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/view_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/view_multicolumn.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/view_multicolumn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/viewmag-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/viewmag-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/viewmag-m-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/viewmag-m-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/viewmag-p-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/viewmag-p-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/bitmaps/viewmagfit-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/viewmagfit-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/data/Example_1.xls" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/data/Example_1.xls" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/images.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/images.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/agw/run.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/run.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/AG00028_.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/AG00028_.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/AG00039_.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/AG00039_.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/AG00178_.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/AG00178_.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/AG00183_.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/AG00183_.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/AG00185_.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/AG00185_.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/BD13656_.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/BD13656_.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/advancedsplash.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/advancedsplash.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/aquabutton.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/aquabutton.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/aquachecked.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/aquachecked.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/aquaflagged.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/aquaflagged.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/aquanotchecked.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/aquanotchecked.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/aquanotflagged.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/aquanotflagged.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/canada.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/canada.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/checked.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/checked.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/columns.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/columns.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/contexthelp-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/contexthelp-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/contexthelp.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/contexthelp.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/copy.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/copy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/cut.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/editcopy.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/editcopy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/editcut.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/editcut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/editpaste.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/editpaste.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/exit-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/exit-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/exit.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/exit.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/ffwd.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/ffwd.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/ffwddisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/ffwddisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/field-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/field-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/filenew.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/filenew.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/fileopen.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/fileopen.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/filesave.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/filesave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/flagged.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/flagged.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/folder_new.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/folder_new.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/ghost.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/ghost.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/gradientbutton.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/gradientbutton.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/help-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/help-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/help.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/help.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/image.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/image.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/image.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/image.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/image.jpg" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/image.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/image.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/image.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/italy.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/italy.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/lbadd.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/lbadd.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/lbcharge.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/lbcharge.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/lbdecrypted.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/lbdecrypted.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/lbnews.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/lbnews.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/lbroll.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/lbroll.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/minus1.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/minus1.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/minus2.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/minus2.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/minus3.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/minus3.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/minus4.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/minus4.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/minus5.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/minus5.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/month-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/month-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/new_file.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/new_file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/new_folder.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/new_folder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/notchecked.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/notchecked.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/notflagged.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/notflagged.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/ok-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/ok-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/open_folder.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/open_folder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/paste.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/paste.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/pause.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/pause.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/pausedisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/pausedisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/play.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/play.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/playdisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/playdisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/plus1.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/plus1.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/plus2.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/plus2.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/plus3.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/plus3.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/plus4.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/plus4.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/plus5.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/plus5.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/record.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/record.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/recorddisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/recorddisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/rewind.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/rewind.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/rewinddisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/rewinddisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/round.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/round.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/save.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/save.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/smfuel.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/smfuel.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/smpi.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/smpi.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/smtemp.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/smtemp.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/splash.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/splash.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/stop.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/stop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/stopdisabled.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/stopdisabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/sttbutton.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/sttbutton.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/sttfont.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/sttfont.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/sttheader.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/sttheader.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/stthelp.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/stthelp.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/toucan.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bitmaps/toucan.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/view1.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/view1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/view2.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/view2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/view_choose.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/view_choose.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/view_detailed.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/view_detailed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/view_icon.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/view_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/view_multicolumn.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/view_multicolumn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/viewmag-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/viewmag-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/viewmag-m-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/viewmag-m-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/viewmag-p-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/viewmag-p-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bitmaps/viewmagfit-16.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/agw/bitmaps/viewmagfit-16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/001.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/001.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/002.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/002.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/003.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/003.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/004.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/004.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/005.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/005.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/006.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/006.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/007.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/007.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/008.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/008.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/009.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/009.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/010.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/010.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/011.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/011.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/012.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/012.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/013.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/013.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/014.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/014.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/015.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/015.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/016.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/016.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/017.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/017.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/018.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/018.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/019.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/019.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/020.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/020.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/021.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/021.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/022.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/022.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/023.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/023.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/024.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/024.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/025.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/025.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/026.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/026.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/027.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/027.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/028.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/028.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/029.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/029.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/030.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/030.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/DbDec.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/DbDec.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/DbInc.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/DbInc.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/Dec.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/Dec.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/FRM_0.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/FRM_0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/FRM_1.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/FRM_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/FRM_2.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/FRM_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/FRM_3.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/FRM_3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/FRM_4.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/FRM_4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/FRM_5.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/FRM_5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/FRM_6.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/FRM_6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/FRM_7.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/FRM_7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/FRM_8.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/FRM_8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/GridBG.gif" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/GridBG.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/Inc.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/Inc.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB01.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB02.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB02.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB03.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB03.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB04.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB04.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB05.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB05.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB06.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB06.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB07.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB07.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB08.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB08.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB09.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB09.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB10.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB10.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB11.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB11.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/LB12.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/LB12.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/Pt.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/Pt.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/Vippi.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/Vippi.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/backgrnd.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/backgrnd.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/book.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/book.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/book_blue.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/book_blue.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/book_green.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/book_green.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/book_red.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/book_red.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/bp_btn1.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/bp_btn1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/bp_btn2.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/bp_btn2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/bp_btn3.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/bp_btn3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/bp_btn4.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/bp_btn4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/bulb1.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/bulb1.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/bulb2.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/bulb2.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/carrot.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/carrot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/clipboard.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/clipboard.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/code.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/code.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/core.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/core.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/custom.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/custom.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/customcontrol.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/customcontrol.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/deletedocs.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/deletedocs.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/deleteperspective.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/deleteperspective.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/demo.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/demo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/dialog.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/dialog.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/exit.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/exit.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/expansion.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/expansion.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/find.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/find.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/findnext.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/findnext.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/floatcanvas.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/floatcanvas.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/frame.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/frame.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/images.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/images.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/inspect.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/inspect.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/layout.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/layout.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/logo.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/miscellaneous.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/miscellaneous.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/modifiedexists.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/modifiedexists.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/mondrian.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/mondrian.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/morecontrols.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/morecontrols.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/moredialog.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/moredialog.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/noicon.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/noicon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/overview.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/overview.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/pencil.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/pencil.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/pointy.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/pointy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/process.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/process.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/pyshell.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/pyshell.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/recent.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/recent.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/rest.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/rest.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/robin.jpg" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/robin.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/saveperspective.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/saveperspective.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/sm_down.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/sm_down.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/sm_up.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/sm_up.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/smiles2.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/smiles2.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/test2.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/test2.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/testmask.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/testmask.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/teststar.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/teststar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/thekid.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/thekid.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/tog1.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/tog1.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/tog2.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/tog2.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/wiztest1.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/wiztest1.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/wiztest2.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/wiztest2.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/bmp_source/wxpdemo.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/wxpdemo.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/Asteroid_blaster.swf" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/Asteroid_blaster.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/anykey.wav" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/anykey.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/echo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/echo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/imagemap.htm" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/imagemap.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/imagemap.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/imagemap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale-src/af.po" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale-src/af.po" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale-src/de.po" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale-src/de.po" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale-src/es.po" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale-src/es.po" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale-src/fr.po" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale-src/fr.po" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale-src/install" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale-src/install" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale-src/it.po" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale-src/it.po" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale-src/wxpydemo.po" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale-src/wxpydemo.po" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale/af/LC_MESSAGES/wxpydemo.mo" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale/af/LC_MESSAGES/wxpydemo.mo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale/de/LC_MESSAGES/wxpydemo.mo" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale/de/LC_MESSAGES/wxpydemo.mo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale/es/LC_MESSAGES/wxpydemo.mo" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale/es/LC_MESSAGES/wxpydemo.mo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale/fr/LC_MESSAGES/wxpydemo.mo" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale/fr/LC_MESSAGES/wxpydemo.mo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/locale/it/LC_MESSAGES/wxpydemo.mo" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/locale/it/LC_MESSAGES/wxpydemo.mo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/pic.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/pic.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/pic2.bmp" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/pic2.bmp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/plan.wav" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/plan.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/proclamation.txt" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/proclamation.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/resource.wdr" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/resource.wdr" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/resource_wdr.xrc" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/resource_wdr.xrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/romedalen.png" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/romedalen.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/stc.h.html" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/stc.h.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/tables.htm" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/tables.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/test.htm" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/test.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/testmovie.mpg" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/testmovie.mpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/testtable.txt" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/testtable.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/tips.txt" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/tips.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/widgetTest.htm" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/widgetTest.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/data/world.dat" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/data/world.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/demo.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/demo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/demo.pyw" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/demo.pyw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/encode_bitmaps.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/encode_bitmaps.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/images.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/images.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/infoframe.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/infoframe.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/paper.xml" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/paper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/pyTree.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/pyTree.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/quotes.xml" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/quotes.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/run.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/run.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/__init__.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/arc.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/arc.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/arc_negative.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/arc_negative.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/clip.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/clip.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/clip_image.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/clip_image.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/curve_rectangle.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/curve_rectangle.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/curve_to.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/curve_to.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/dash.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/dash.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/ellipse.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/ellipse.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/fill_and_stroke.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/fill_and_stroke.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/fill_and_stroke2.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/fill_and_stroke2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/fill_style.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/fill_style.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/glyph_path.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/glyph_path.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/gradient.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/gradient.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/gradient_mask.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/gradient_mask.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/group.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/group.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/image.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/image.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/imagepattern.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/imagepattern.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/path.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/path.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/set_line_cap.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/set_line_cap.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/set_line_join.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/set_line_join.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/show_glyphs.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/show_glyphs.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/text.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/text.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/text_align_center.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/text_align_center.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/snippets/text_extents.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/snippets/text_extents.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/template.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/template.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/throbImages.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/throbImages.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/version.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/version.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/viewer.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/viewer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/viewer_basics.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/viewer_basics.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/widgetTest.py" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/widgetTest.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/wxPythonDemo/wxpdemo.ico" afterPath="$PROJECT_DIR$/PythonGUI学习/wxPythonDemo/bmp_source/wxpdemo.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/load2python.iml" afterPath="$PROJECT_DIR$/.idea/load2python.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGUI学习（wxPython）/TerrestrialFTSGUI/login.py" afterPath="$PROJECT_DIR$/PythonGUI学习（wxPython）/TerrestrialFTSGUI/login.py" />
     </list>
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,18 +679,22 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/load2python$ex3.coverage" NAME="ex3 Coverage Results" MODIFIED="1461729441380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$1.coverage" NAME="1 Coverage Results" MODIFIED="1466426332844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
+    <SUITE FILE_PATH="coverage/load2python$testTkinter.coverage" NAME="testTkinter Coverage Results" MODIFIED="1474886220524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$testStoreTree.coverage" NAME="testStoreTree Coverage Results" MODIFIED="1467878981797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
     <SUITE FILE_PATH="coverage/load2python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1467793593775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/jieba/test" />
     <SUITE FILE_PATH="coverage/load2python$testNumPy.coverage" NAME="testNumPy Coverage Results" MODIFIED="1473421232784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法" />
     <SUITE FILE_PATH="coverage/load2python$testClassify__1_.coverage" NAME="testClassify (1) Coverage Results" MODIFIED="1467878902179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
     <SUITE FILE_PATH="coverage/load2python$moreAbstraction.coverage" NAME="moreAbstraction Coverage Results" MODIFIED="1466426321088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
+    <SUITE FILE_PATH="coverage/load2python$login__1_.coverage" NAME="login (1) Coverage Results" MODIFIED="1474629784048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/TerrestrialFTSGUI" />
     <SUITE FILE_PATH="coverage/load2python$ex6.coverage" NAME="ex6 Coverage Results" MODIFIED="1461747936847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$trainModel.coverage" NAME="trainModel Coverage Results" MODIFIED="1467952213163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
     <SUITE FILE_PATH="coverage/load2python$c_29_get_object_info.coverage" NAME="c_29_get_object_info Coverage Results" MODIFIED="1461691788150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
     <SUITE FILE_PATH="coverage/load2python$testSplitDataSet.coverage" NAME="testSplitDataSet Coverage Results" MODIFIED="1467465014315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
     <SUITE FILE_PATH="coverage/load2python$classify.coverage" NAME="classify Coverage Results" MODIFIED="1468892323767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
     <SUITE FILE_PATH="coverage/load2python$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1467018874849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
+    <SUITE FILE_PATH="coverage/load2python$sample_ui.coverage" NAME="sample_ui Coverage Results" MODIFIED="1474896970209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$testChooseBestFeatureToSplite.coverage" NAME="testChooseBestFeatureToSplite Coverage Results" MODIFIED="1467466468693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
+    <SUITE FILE_PATH="coverage/load2python$calc.coverage" NAME="calc Coverage Results" MODIFIED="1474629870389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$testEntropyCalc.coverage" NAME="testEntropyCalc Coverage Results" MODIFIED="1467463616845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
     <SUITE FILE_PATH="coverage/load2python$calculate__1_.coverage" NAME="calculate (1) Coverage Results" MODIFIED="1467379998140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
     <SUITE FILE_PATH="coverage/load2python$ex9.coverage" NAME="ex9 Coverage Results" MODIFIED="1461751514141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
@@ -45,7 +703,7 @@
     <SUITE FILE_PATH="coverage/load2python$4_string.coverage" NAME="4_string Coverage Results" MODIFIED="1467813029819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
     <SUITE FILE_PATH="coverage/load2python$dic_read.coverage" NAME="dic_read Coverage Results" MODIFIED="1467638055464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Dictionary" />
     <SUITE FILE_PATH="coverage/load2python$module_as_scripts.coverage" NAME="module_as_scripts Coverage Results" MODIFIED="1467379667677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Module" />
-    <SUITE FILE_PATH="coverage/load2python$write_binary.coverage" NAME="write_binary Coverage Results" MODIFIED="1474621180262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件" />
+    <SUITE FILE_PATH="coverage/load2python$write_binary.coverage" NAME="write_binary Coverage Results" MODIFIED="1474621752780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件" />
     <SUITE FILE_PATH="coverage/load2python$ex7.coverage" NAME="ex7 Coverage Results" MODIFIED="1461748347541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$2_dataType.coverage" NAME="2_dataType Coverage Results" MODIFIED="1461691760890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
     <SUITE FILE_PATH="coverage/load2python$testClassify.coverage" NAME="testClassify Coverage Results" MODIFIED="1467902929496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
@@ -67,6 +725,7 @@
     <SUITE FILE_PATH="coverage/load2python$testCreateVec.coverage" NAME="testCreateVec Coverage Results" MODIFIED="1469520445906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
     <SUITE FILE_PATH="coverage/load2python$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1461728264348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$testLocalWords.coverage" NAME="testLocalWords Coverage Results" MODIFIED="1469697263077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+    <SUITE FILE_PATH="coverage/load2python$login.coverage" NAME="login Coverage Results" MODIFIED="1474622388676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习（wxPython）/TerrestrialFTSGUI" />
     <SUITE FILE_PATH="coverage/load2python$ex10.coverage" NAME="ex10 Coverage Results" MODIFIED="1461752543489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$trees.coverage" NAME="trees Coverage Results" MODIFIED="1467902412249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
     <SUITE FILE_PATH="coverage/load2python$testJieba.coverage" NAME="testJieba Coverage Results" MODIFIED="1467795727413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
@@ -80,6 +739,7 @@
     <SUITE FILE_PATH="coverage/load2python$Main.coverage" NAME="Main Coverage Results" MODIFIED="1463567512407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatrixAnalysis大作业" />
     <SUITE FILE_PATH="coverage/load2python$main.coverage" NAME="main Coverage Results" MODIFIED="1466961509619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
     <SUITE FILE_PATH="coverage/load2python$testJieba__1_.coverage" NAME="testJieba (1) Coverage Results" MODIFIED="1467801295318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/test" />
+    <SUITE FILE_PATH="coverage/load2python$Tkinter.coverage" NAME="Tkinter Coverage Results" MODIFIED="1474627665955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.pyenv/versions/2.7.3/lib/python2.7/lib-tk" />
     <SUITE FILE_PATH="coverage/load2python$ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1461731207247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$testMatplotlib.coverage" NAME="testMatplotlib Coverage Results" MODIFIED="1467380610733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
   </component>
@@ -99,43 +759,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/README.md">
+      <file leaf-file-name="testTkinter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/testTkinter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="101">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_read.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/test_read.py">
+      <file leaf-file-name="sample_ui.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/sample_ui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="write_binary.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/write_binary.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="e#16#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/data/script.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -156,11 +794,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BeginningPython/Function/sorted.py" />
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree/testCreateTree.py" />
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree/treePlotter.py" />
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree/testTreePlotter.py" />
-        <option value="$PROJECT_DIR$/NLPFinalHomework/testJieba.py" />
         <option value="$PROJECT_DIR$/NLPFinalHomework/test/testJieba.py" />
         <option value="$PROJECT_DIR$/NLPFinalHomework/wordSeg.py" />
         <option value="$PROJECT_DIR$/NLPFinalHomework/Segmentation.py" />
@@ -207,6 +840,11 @@
         <option value="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/test.dat" />
         <option value="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/scripts.py" />
         <option value="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/data/script.py" />
+        <option value="$PROJECT_DIR$/PythonGUI学习（wxPython）/TerrestrialFTSGUI/login.py" />
+        <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/cal.py" />
+        <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/calc.py" />
+        <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/testTkinter.py" />
+        <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/sample_ui.py" />
       </list>
     </option>
   </component>
@@ -218,7 +856,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="1104" />
     <option name="width" value="1535" />
     <option name="height" value="876" />
   </component>
@@ -264,7 +902,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -293,7 +930,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Python面向日常任务实战" />
+              <option name="myItemId" value="PythonGUI学习" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,42 +944,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Python面向日常任务实战" />
+              <option name="myItemId" value="PythonGUI学习" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="读写二进制文件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="load2python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="load2python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python面向日常任务实战" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="读写二进制文件" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="Tkinter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -371,93 +987,93 @@
       <recent name="D:\python\load2python\Python实现主流机器学习算法\02-KNN" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.write_binary">
-    <configuration default="false" name="dataCut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sample_ui">
+    <configuration default="false" name="testTkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NLPFinalHomework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLPFinalHomework/dataCut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/Tkinter/testTkinter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="testNumPy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python实现主流机器学习算法" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/.pyenv/versions/2.7.3/lib/python2.7/lib-tk" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python实现主流机器学习算法/testNumPy.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/.pyenv/versions/2.7.3/lib/python2.7/lib-tk/Tkinter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="login (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGUI学习/TerrestrialFTSGUI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/test_read.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/TerrestrialFTSGUI/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="write_binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/write_binary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/Tkinter/calc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="scripts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="sample_ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/scripts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/Tkinter/sample_ui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -671,19 +1287,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.dataCut" />
-      <item index="1" class="java.lang.String" itemvalue="Python.testNumPy" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_read" />
-      <item index="3" class="java.lang.String" itemvalue="Python.write_binary" />
-      <item index="4" class="java.lang.String" itemvalue="Python.scripts" />
+      <item index="0" class="java.lang.String" itemvalue="Python.testTkinter" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Tkinter" />
+      <item index="2" class="java.lang.String" itemvalue="Python.login (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.calc" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sample_ui" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.write_binary" />
-        <item index="1" class="java.lang.String" itemvalue="Python.scripts" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test_read" />
-        <item index="3" class="java.lang.String" itemvalue="Python.testNumPy" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dataCut" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sample_ui" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testTkinter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.calc" />
+        <item index="3" class="java.lang.String" itemvalue="Python.login (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Tkinter" />
       </list>
     </recent_temporary>
   </component>
@@ -713,18 +1329,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="1104" width="1535" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19517103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22870557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36726806" sideWeight="0.5110664" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6585366" sideWeight="0.5175781" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11057692" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23974359" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36726806" sideWeight="0.4889336" order="2" side_tool="false" content_ui="tabs" x="383" y="487" width="1283" height="348" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23963964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25575447" sideWeight="0.48242188" order="2" side_tool="false" content_ui="tabs" x="383" y="487" width="1283" height="348" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24750277" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31038648" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33631712" sideWeight="0.49496982" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3971061" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -782,41 +1398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/treeModel/testClassify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/data/8w_cut_train.txt_feature.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="194" column="24" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/data/2w_cut_test.txt_feature.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/data/8w_cut_train.txt_seg.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/data/lenses.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NLPFinalHomework/treeModel/treePlotter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1070,14 +1651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/out.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1109,27 +1682,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/data/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/test_read.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="90">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/write_binary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#16#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/2.7.3/lib/python2.7/lib-tk/Tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGUI学习/TerrestrialFTSGUI/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/testTkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/sample_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
