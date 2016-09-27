@@ -27,6 +27,9 @@ class Aplication(Frame):
         fd = LoadFileDialog(self)
         filename = fd.go()
         print filename
+        filename = filename.split('/')
+        print filename[-1]
+
         # tkMessageBox.showinfo('Message', 'FileName is ： %s' %filename)
 
 app = Aplication()
