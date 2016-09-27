@@ -7,16 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_canvas.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_dialogs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_label.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_menu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_message.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_panedWindow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_scale.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_spinbox.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_text.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_checkbutton.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_radioButton.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_scrollbar.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_text.py" afterPath="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_text.py" />
     </list>
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,6 +64,7 @@
     <SUITE FILE_PATH="coverage/load2python$ex8.coverage" NAME="ex8 Coverage Results" MODIFIED="1461748723610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$ex2.coverage" NAME="ex2 Coverage Results" MODIFIED="1461728712787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$tk_scale.coverage" NAME="tk_scale Coverage Results" MODIFIED="1474966768826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$tk_scrollbar.coverage" NAME="tk_scrollbar Coverage Results" MODIFIED="1474968300100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$sorted.coverage" NAME="sorted Coverage Results" MODIFIED="1467648369096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Function" />
     <SUITE FILE_PATH="coverage/load2python$logRegres.coverage" NAME="logRegres Coverage Results" MODIFIED="1469778427968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres" />
     <SUITE FILE_PATH="coverage/load2python$seg_word.coverage" NAME="seg_word Coverage Results" MODIFIED="1467803340793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
@@ -76,6 +72,7 @@
     <SUITE FILE_PATH="coverage/load2python$c_26_opp.coverage" NAME="c_26_opp Coverage Results" MODIFIED="1461691793735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
     <SUITE FILE_PATH="coverage/load2python$test.coverage" NAME="test Coverage Results" MODIFIED="1473262406052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法教程" />
     <SUITE FILE_PATH="coverage/load2python$testHandwritingClass.coverage" NAME="testHandwritingClass Coverage Results" MODIFIED="1467395196672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
+    <SUITE FILE_PATH="coverage/load2python$tk_radioButton.coverage" NAME="tk_radioButton Coverage Results" MODIFIED="1474971595975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$testSpam.coverage" NAME="testSpam Coverage Results" MODIFIED="1469525315018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
     <SUITE FILE_PATH="coverage/load2python$bayes.coverage" NAME="bayes Coverage Results" MODIFIED="1469602956435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
     <SUITE FILE_PATH="coverage/load2python$ex4.coverage" NAME="ex4 Coverage Results" MODIFIED="1461730243157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
@@ -94,6 +91,7 @@
     <SUITE FILE_PATH="coverage/load2python$testTreePlotter.coverage" NAME="testTreePlotter Coverage Results" MODIFIED="1467790820319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
     <SUITE FILE_PATH="coverage/load2python$testDatingClass.coverage" NAME="testDatingClass Coverage Results" MODIFIED="1467389696620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
     <SUITE FILE_PATH="coverage/load2python$dataCut.coverage" NAME="dataCut Coverage Results" MODIFIED="1473421187950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
+    <SUITE FILE_PATH="coverage/load2python$tk_checkbutton.coverage" NAME="tk_checkbutton Coverage Results" MODIFIED="1474967636235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$calculate.coverage" NAME="calculate Coverage Results" MODIFIED="1468854615419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
     <SUITE FILE_PATH="coverage/load2python$scripts.coverage" NAME="scripts Coverage Results" MODIFIED="1474521247587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件" />
     <SUITE FILE_PATH="coverage/load2python$tk_text.coverage" NAME="tk_text Coverage Results" MODIFIED="1474967336065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
@@ -121,41 +119,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tk_spinbox.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_spinbox.py">
+      <file leaf-file-name="tk_radioButton.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_radioButton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tk_label.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_label.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tk_scale.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_scale.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tk_text.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_text.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,9 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree/treePlotter_new.py" />
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree/trees.py" />
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree/testStoreTree.py" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree/testClassify.py" />
         <option value="$PROJECT_DIR$/NLPFinalHomework/treeModel/testStoreTree.py" />
         <option value="$PROJECT_DIR$/NLPFinalHomework/data/8w_cut_train.txt_feature.txt" />
@@ -227,6 +192,9 @@
         <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_label.py" />
         <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_scale.py" />
         <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_text.py" />
+        <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_checkbutton.py" />
+        <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_scrollbar.py" />
+        <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_radioButton.py" />
       </list>
     </option>
   </component>
@@ -237,8 +205,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="712" />
-    <option name="y" value="93" />
+    <option name="x" value="500" />
+    <option name="y" value="159" />
     <option name="width" value="1153" />
     <option name="height" value="658" />
   </component>
@@ -369,61 +337,7 @@
       <recent name="D:\python\load2python\Python实现主流机器学习算法\02-KNN" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tk_text">
-    <configuration default="false" name="tk_dialogs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="load2python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_dialogs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="tk_spinbox" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="load2python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_spinbox.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="tk_label" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="load2python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_label.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.tk_radioButton">
     <configuration default="false" name="tk_scale" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -456,6 +370,60 @@
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tk_checkbutton" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="load2python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_checkbutton.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tk_scrollbar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="load2python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_scrollbar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tk_radioButton" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="load2python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_radioButton.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -669,19 +637,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tk_dialogs" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tk_spinbox" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tk_label" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tk_scale" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tk_text" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tk_scale" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tk_text" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tk_checkbutton" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tk_scrollbar" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tk_radioButton" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tk_text" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tk_scale" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tk_label" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tk_spinbox" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tk_dialogs" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tk_radioButton" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tk_scrollbar" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tk_checkbutton" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tk_text" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tk_scale" />
       </list>
     </recent_temporary>
   </component>
@@ -711,7 +679,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="712" y="93" width="1153" height="658" extended-state="0" />
+    <frame x="500" y="159" width="1153" height="658" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23174031" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -721,7 +689,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10997442" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23758866" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29787233" sideWeight="0.48242188" order="2" side_tool="false" content_ui="tabs" x="383" y="487" width="1283" height="348" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29787233" sideWeight="0.48242188" order="2" side_tool="false" content_ui="tabs" x="383" y="487" width="1283" height="348" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24750277" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33510637" sideWeight="0.49496982" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -780,27 +748,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/data/2w_cut_test.txt_seg.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3675">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/data/2w_cut_test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/createSpamDic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1119,14 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_spinbox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_label.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1145,8 +1084,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_checkbutton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_spinbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_scrollbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_radioButton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -3,7 +3,7 @@
 from Tkinter import *
 
 root = Tk()
-root.title("Scale")
+root.title("Text")
 root.minsize(400, 300)
 
 text = Text(root, width = 40, height=10)
