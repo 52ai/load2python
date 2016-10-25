@@ -1,6 +1,10 @@
-import numpy as np
-import matplotlib.pyplot as plt
-t=np.arange(0.,4.,0.1)
-plt.plot(t,t,t,t+2,t,t**2)
+from math import pi, floor
 
-#I am picture, I am picture, I am picture.
+print pi
+print long(2E20)
+print floor(35.4)
+print """hello
+
+        world"""
+print range(1,3,2)
+print 63/2

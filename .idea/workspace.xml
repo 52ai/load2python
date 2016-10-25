@@ -7,7 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/用Python玩转数据/1.2-exercise1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/用Python玩转数据/1.2-exercise2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/用Python玩转数据/1.2-exercise3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/用Python玩转数据/1.2-exercise4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/用Python玩转数据/Hanoi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/用Python玩转数据/figure-guessing.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/用Python玩转数据/1.2-1.py" afterPath="$PROJECT_DIR$/用Python玩转数据/1.2-1.py" />
     </list>
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,93 +30,99 @@
     <SUITE FILE_PATH="coverage/load2python$ex3.coverage" NAME="ex3 Coverage Results" MODIFIED="1461729441380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$testTkinter.coverage" NAME="testTkinter Coverage Results" MODIFIED="1474886220524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$1.coverage" NAME="1 Coverage Results" MODIFIED="1477307503395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
-    <SUITE FILE_PATH="coverage/load2python$testStoreTree.coverage" NAME="testStoreTree Coverage Results" MODIFIED="1467878981797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
     <SUITE FILE_PATH="coverage/load2python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1467793593775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/jieba/test" />
     <SUITE FILE_PATH="coverage/load2python$testNumPy.coverage" NAME="testNumPy Coverage Results" MODIFIED="1473421232784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法" />
-    <SUITE FILE_PATH="coverage/load2python$testClassify__1_.coverage" NAME="testClassify (1) Coverage Results" MODIFIED="1467878902179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
-    <SUITE FILE_PATH="coverage/load2python$moreAbstraction.coverage" NAME="moreAbstraction Coverage Results" MODIFIED="1466426321088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
     <SUITE FILE_PATH="coverage/load2python$tk_entry.coverage" NAME="tk_entry Coverage Results" MODIFIED="1474973581987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$login__1_.coverage" NAME="login (1) Coverage Results" MODIFIED="1474629784048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/TerrestrialFTSGUI" />
-    <SUITE FILE_PATH="coverage/load2python$ex6.coverage" NAME="ex6 Coverage Results" MODIFIED="1461747936847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$trainModel.coverage" NAME="trainModel Coverage Results" MODIFIED="1467952213163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
     <SUITE FILE_PATH="coverage/load2python$c_29_get_object_info.coverage" NAME="c_29_get_object_info Coverage Results" MODIFIED="1461691788150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
     <SUITE FILE_PATH="coverage/load2python$testSplitDataSet.coverage" NAME="testSplitDataSet Coverage Results" MODIFIED="1467465014315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
-    <SUITE FILE_PATH="coverage/load2python$1_2_1.coverage" NAME="1.2-1 Coverage Results" MODIFIED="1476344791405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用Python玩转数据" />
     <SUITE FILE_PATH="coverage/load2python$tk_message.coverage" NAME="tk_message Coverage Results" MODIFIED="1474963346436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$tk_dialogs.coverage" NAME="tk_dialogs Coverage Results" MODIFIED="1474981632633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$classify.coverage" NAME="classify Coverage Results" MODIFIED="1468892323767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
-    <SUITE FILE_PATH="coverage/load2python$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1467018874849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
-    <SUITE FILE_PATH="coverage/load2python$sample_ui.coverage" NAME="sample_ui Coverage Results" MODIFIED="1474954505018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$testChooseBestFeatureToSplite.coverage" NAME="testChooseBestFeatureToSplite Coverage Results" MODIFIED="1467466468693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
-    <SUITE FILE_PATH="coverage/load2python$calc.coverage" NAME="calc Coverage Results" MODIFIED="1474629870389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$testEntropyCalc.coverage" NAME="testEntropyCalc Coverage Results" MODIFIED="1467463616845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
     <SUITE FILE_PATH="coverage/load2python$tk_grid.coverage" NAME="tk_grid Coverage Results" MODIFIED="1474962227704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$helloTread.coverage" NAME="helloTread Coverage Results" MODIFIED="1476260814227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Thread" />
-    <SUITE FILE_PATH="coverage/load2python$calculate__1_.coverage" NAME="calculate (1) Coverage Results" MODIFIED="1467379998140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
     <SUITE FILE_PATH="coverage/load2python$ex9.coverage" NAME="ex9 Coverage Results" MODIFIED="1461751514141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$test_read.coverage" NAME="test_read Coverage Results" MODIFIED="1474467697690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件" />
     <SUITE FILE_PATH="coverage/load2python$testHandwritingVector.coverage" NAME="testHandwritingVector Coverage Results" MODIFIED="1467393552326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
     <SUITE FILE_PATH="coverage/load2python$tk_frame.coverage" NAME="tk_frame Coverage Results" MODIFIED="1474972817484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$tk_spinbox.coverage" NAME="tk_spinbox Coverage Results" MODIFIED="1474966192579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$tk_menu.coverage" NAME="tk_menu Coverage Results" MODIFIED="1474962787648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$tk_label.coverage" NAME="tk_label Coverage Results" MODIFIED="1474966562761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$2.coverage" NAME="2 Coverage Results" MODIFIED="1477307526856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/load2python$4_string.coverage" NAME="4_string Coverage Results" MODIFIED="1467813029819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
-    <SUITE FILE_PATH="coverage/load2python$dic_read.coverage" NAME="dic_read Coverage Results" MODIFIED="1467638055464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Dictionary" />
+    <SUITE FILE_PATH="coverage/load2python$Hanoi.coverage" NAME="Hanoi Coverage Results" MODIFIED="1477372618397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用Python玩转数据" />
     <SUITE FILE_PATH="coverage/load2python$module_as_scripts.coverage" NAME="module_as_scripts Coverage Results" MODIFIED="1467379667677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Module" />
     <SUITE FILE_PATH="coverage/load2python$tk_listBox.coverage" NAME="tk_listBox Coverage Results" MODIFIED="1474972372413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$1_2_exercise3.coverage" NAME="1.2-exercise3 Coverage Results" MODIFIED="1477373945474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用Python玩转数据" />
+    <SUITE FILE_PATH="coverage/load2python$1_2_exercise4.coverage" NAME="1.2-exercise4 Coverage Results" MODIFIED="1477376679552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用Python玩转数据" />
+    <SUITE FILE_PATH="coverage/load2python$ex8.coverage" NAME="ex8 Coverage Results" MODIFIED="1461748723610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
+    <SUITE FILE_PATH="coverage/load2python$ex2.coverage" NAME="ex2 Coverage Results" MODIFIED="1461728712787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
+    <SUITE FILE_PATH="coverage/load2python$tk_scale.coverage" NAME="tk_scale Coverage Results" MODIFIED="1474966768826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$sorted.coverage" NAME="sorted Coverage Results" MODIFIED="1467648369096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Function" />
+    <SUITE FILE_PATH="coverage/load2python$logRegres.coverage" NAME="logRegres Coverage Results" MODIFIED="1469778427968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres" />
+    <SUITE FILE_PATH="coverage/load2python$0_helloword.coverage" NAME="0_helloword Coverage Results" MODIFIED="1461691773654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
+    <SUITE FILE_PATH="coverage/load2python$c_26_opp.coverage" NAME="c_26_opp Coverage Results" MODIFIED="1461691793735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
+    <SUITE FILE_PATH="coverage/load2python$1_2_exercise2.coverage" NAME="1.2-exercise2 Coverage Results" MODIFIED="1477373897422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用Python玩转数据" />
+    <SUITE FILE_PATH="coverage/load2python$test.coverage" NAME="test Coverage Results" MODIFIED="1473262406052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法教程" />
+    <SUITE FILE_PATH="coverage/load2python$testSpam.coverage" NAME="testSpam Coverage Results" MODIFIED="1469525315018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+    <SUITE FILE_PATH="coverage/load2python$bayes.coverage" NAME="bayes Coverage Results" MODIFIED="1469602956435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+    <SUITE FILE_PATH="coverage/load2python$testBayesClassify.coverage" NAME="testBayesClassify Coverage Results" MODIFIED="1469522211864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+    <SUITE FILE_PATH="coverage/load2python$createSpamDic.coverage" NAME="createSpamDic Coverage Results" MODIFIED="1467871183099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
+    <SUITE FILE_PATH="coverage/load2python$testCreateVec.coverage" NAME="testCreateVec Coverage Results" MODIFIED="1469520445906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+    <SUITE FILE_PATH="coverage/load2python$tk_optionMenu.coverage" NAME="tk_optionMenu Coverage Results" MODIFIED="1474977568922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$testLocalWords.coverage" NAME="testLocalWords Coverage Results" MODIFIED="1469697263077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
+    <SUITE FILE_PATH="coverage/load2python$tk_labelFrame.coverage" NAME="tk_labelFrame Coverage Results" MODIFIED="1474972021813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$trees.coverage" NAME="trees Coverage Results" MODIFIED="1467902412249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
+    <SUITE FILE_PATH="coverage/load2python$extractFeature.coverage" NAME="extractFeature Coverage Results" MODIFIED="1467952194134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
+    <SUITE FILE_PATH="coverage/load2python$testCreateTree.coverage" NAME="testCreateTree Coverage Results" MODIFIED="1467897046856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
+    <SUITE FILE_PATH="coverage/load2python$testTreePlotter.coverage" NAME="testTreePlotter Coverage Results" MODIFIED="1467790820319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
+    <SUITE FILE_PATH="coverage/load2python$testDatingClass.coverage" NAME="testDatingClass Coverage Results" MODIFIED="1467389696620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
+    <SUITE FILE_PATH="coverage/load2python$tk_place.coverage" NAME="tk_place Coverage Results" MODIFIED="1474973121160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$tk_checkbutton.coverage" NAME="tk_checkbutton Coverage Results" MODIFIED="1474967636235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$calculate.coverage" NAME="calculate Coverage Results" MODIFIED="1468854615419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
+    <SUITE FILE_PATH="coverage/load2python$tk_text.coverage" NAME="tk_text Coverage Results" MODIFIED="1474967336065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$Main.coverage" NAME="Main Coverage Results" MODIFIED="1463567512407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatrixAnalysis大作业" />
+    <SUITE FILE_PATH="coverage/load2python$testJieba__1_.coverage" NAME="testJieba (1) Coverage Results" MODIFIED="1467801295318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/test" />
+    <SUITE FILE_PATH="coverage/load2python$scripts1.coverage" NAME="scripts1 Coverage Results" MODIFIED="1474984275844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python面向日常任务实战/计划交接单提醒工具" />
+    <SUITE FILE_PATH="coverage/load2python$tk_panedWindow.coverage" NAME="tk_panedWindow Coverage Results" MODIFIED="1474963754996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1461731207247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
+    <SUITE FILE_PATH="coverage/load2python$testStoreTree.coverage" NAME="testStoreTree Coverage Results" MODIFIED="1467878981797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
+    <SUITE FILE_PATH="coverage/load2python$testClassify__1_.coverage" NAME="testClassify (1) Coverage Results" MODIFIED="1467878902179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
+    <SUITE FILE_PATH="coverage/load2python$moreAbstraction.coverage" NAME="moreAbstraction Coverage Results" MODIFIED="1466426321088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
+    <SUITE FILE_PATH="coverage/load2python$login__1_.coverage" NAME="login (1) Coverage Results" MODIFIED="1474629784048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/TerrestrialFTSGUI" />
+    <SUITE FILE_PATH="coverage/load2python$ex6.coverage" NAME="ex6 Coverage Results" MODIFIED="1461747936847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
+    <SUITE FILE_PATH="coverage/load2python$trainModel.coverage" NAME="trainModel Coverage Results" MODIFIED="1467952213163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
+    <SUITE FILE_PATH="coverage/load2python$1_2_1.coverage" NAME="1.2-1 Coverage Results" MODIFIED="1477371668388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用Python玩转数据" />
+    <SUITE FILE_PATH="coverage/load2python$tk_dialogs.coverage" NAME="tk_dialogs Coverage Results" MODIFIED="1474981632633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1467018874849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
+    <SUITE FILE_PATH="coverage/load2python$sample_ui.coverage" NAME="sample_ui Coverage Results" MODIFIED="1474954505018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$calc.coverage" NAME="calc Coverage Results" MODIFIED="1474629870389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$testEntropyCalc.coverage" NAME="testEntropyCalc Coverage Results" MODIFIED="1467463616845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
+    <SUITE FILE_PATH="coverage/load2python$calculate__1_.coverage" NAME="calculate (1) Coverage Results" MODIFIED="1467379998140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
+    <SUITE FILE_PATH="coverage/load2python$test_read.coverage" NAME="test_read Coverage Results" MODIFIED="1474467697690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件" />
+    <SUITE FILE_PATH="coverage/load2python$tk_menu.coverage" NAME="tk_menu Coverage Results" MODIFIED="1474962787648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
+    <SUITE FILE_PATH="coverage/load2python$dic_read.coverage" NAME="dic_read Coverage Results" MODIFIED="1467638055464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Dictionary" />
     <SUITE FILE_PATH="coverage/load2python$write_binary.coverage" NAME="write_binary Coverage Results" MODIFIED="1474621752780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件" />
     <SUITE FILE_PATH="coverage/load2python$ex7.coverage" NAME="ex7 Coverage Results" MODIFIED="1461748347541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$tk_canvas.coverage" NAME="tk_canvas Coverage Results" MODIFIED="1474964095462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$2_dataType.coverage" NAME="2_dataType Coverage Results" MODIFIED="1461691760890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
     <SUITE FILE_PATH="coverage/load2python$tk_toplevel.coverage" NAME="tk_toplevel Coverage Results" MODIFIED="1474976767689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$testClassify.coverage" NAME="testClassify Coverage Results" MODIFIED="1467902929496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
-    <SUITE FILE_PATH="coverage/load2python$ex8.coverage" NAME="ex8 Coverage Results" MODIFIED="1461748723610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$ex2.coverage" NAME="ex2 Coverage Results" MODIFIED="1461728712787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$tk_scale.coverage" NAME="tk_scale Coverage Results" MODIFIED="1474966768826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$tk_scrollbar.coverage" NAME="tk_scrollbar Coverage Results" MODIFIED="1474968300100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$tk_menuButton.coverage" NAME="tk_menuButton Coverage Results" MODIFIED="1474977376359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$sorted.coverage" NAME="sorted Coverage Results" MODIFIED="1467648369096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython/Function" />
-    <SUITE FILE_PATH="coverage/load2python$logRegres.coverage" NAME="logRegres Coverage Results" MODIFIED="1469778427968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres" />
+    <SUITE FILE_PATH="coverage/load2python$figure_guessing.coverage" NAME="figure-guessing Coverage Results" MODIFIED="1477366426865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用Python玩转数据" />
     <SUITE FILE_PATH="coverage/load2python$seg_word.coverage" NAME="seg_word Coverage Results" MODIFIED="1467803340793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
-    <SUITE FILE_PATH="coverage/load2python$0_helloword.coverage" NAME="0_helloword Coverage Results" MODIFIED="1461691773654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
-    <SUITE FILE_PATH="coverage/load2python$c_26_opp.coverage" NAME="c_26_opp Coverage Results" MODIFIED="1461691793735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python基础学习" />
     <SUITE FILE_PATH="coverage/load2python$tk_eventBind.coverage" NAME="tk_eventBind Coverage Results" MODIFIED="1474977927500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$test.coverage" NAME="test Coverage Results" MODIFIED="1473262406052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python算法教程" />
     <SUITE FILE_PATH="coverage/load2python$testHandwritingClass.coverage" NAME="testHandwritingClass Coverage Results" MODIFIED="1467395196672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
     <SUITE FILE_PATH="coverage/load2python$tk_radioButton.coverage" NAME="tk_radioButton Coverage Results" MODIFIED="1474971595975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$testSpam.coverage" NAME="testSpam Coverage Results" MODIFIED="1469525315018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
-    <SUITE FILE_PATH="coverage/load2python$bayes.coverage" NAME="bayes Coverage Results" MODIFIED="1469602956435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
     <SUITE FILE_PATH="coverage/load2python$ex4.coverage" NAME="ex4 Coverage Results" MODIFIED="1461730243157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$testBayesClassify.coverage" NAME="testBayesClassify Coverage Results" MODIFIED="1469522211864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
-    <SUITE FILE_PATH="coverage/load2python$createSpamDic.coverage" NAME="createSpamDic Coverage Results" MODIFIED="1467871183099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
     <SUITE FILE_PATH="coverage/load2python$testLogRegres.coverage" NAME="testLogRegres Coverage Results" MODIFIED="1469778750199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres" />
-    <SUITE FILE_PATH="coverage/load2python$testCreateVec.coverage" NAME="testCreateVec Coverage Results" MODIFIED="1469520445906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
     <SUITE FILE_PATH="coverage/load2python$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1461728264348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$tk_optionMenu.coverage" NAME="tk_optionMenu Coverage Results" MODIFIED="1474977568922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$testLocalWords.coverage" NAME="testLocalWords Coverage Results" MODIFIED="1469697263077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes" />
     <SUITE FILE_PATH="coverage/load2python$login.coverage" NAME="login Coverage Results" MODIFIED="1474622388676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习（wxPython）/TerrestrialFTSGUI" />
     <SUITE FILE_PATH="coverage/load2python$ex10.coverage" NAME="ex10 Coverage Results" MODIFIED="1461752543489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
-    <SUITE FILE_PATH="coverage/load2python$tk_labelFrame.coverage" NAME="tk_labelFrame Coverage Results" MODIFIED="1474972021813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$trees.coverage" NAME="trees Coverage Results" MODIFIED="1467902412249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
     <SUITE FILE_PATH="coverage/load2python$testJieba.coverage" NAME="testJieba Coverage Results" MODIFIED="1467795727413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
-    <SUITE FILE_PATH="coverage/load2python$extractFeature.coverage" NAME="extractFeature Coverage Results" MODIFIED="1467952194134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
-    <SUITE FILE_PATH="coverage/load2python$testCreateTree.coverage" NAME="testCreateTree Coverage Results" MODIFIED="1467897046856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/treeModel" />
-    <SUITE FILE_PATH="coverage/load2python$testTreePlotter.coverage" NAME="testTreePlotter Coverage Results" MODIFIED="1467790820319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/03-DecisionTree" />
-    <SUITE FILE_PATH="coverage/load2python$testDatingClass.coverage" NAME="testDatingClass Coverage Results" MODIFIED="1467389696620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
     <SUITE FILE_PATH="coverage/load2python$dataCut.coverage" NAME="dataCut Coverage Results" MODIFIED="1473421187950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework" />
-    <SUITE FILE_PATH="coverage/load2python$tk_place.coverage" NAME="tk_place Coverage Results" MODIFIED="1474973121160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$tk_checkbutton.coverage" NAME="tk_checkbutton Coverage Results" MODIFIED="1474967636235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$calculate.coverage" NAME="calculate Coverage Results" MODIFIED="1468854615419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BeginningPython" />
     <SUITE FILE_PATH="coverage/load2python$scripts.coverage" NAME="scripts Coverage Results" MODIFIED="1475286733828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python面向日常任务实战/计划交接单提醒工具" />
-    <SUITE FILE_PATH="coverage/load2python$tk_text.coverage" NAME="tk_text Coverage Results" MODIFIED="1474967336065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
-    <SUITE FILE_PATH="coverage/load2python$Main.coverage" NAME="Main Coverage Results" MODIFIED="1463567512407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MatrixAnalysis大作业" />
+    <SUITE FILE_PATH="coverage/load2python$1_2_exercise1.coverage" NAME="1.2-exercise1 Coverage Results" MODIFIED="1477373595774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/用Python玩转数据" />
     <SUITE FILE_PATH="coverage/load2python$main.coverage" NAME="main Coverage Results" MODIFIED="1466961509619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
-    <SUITE FILE_PATH="coverage/load2python$testJieba__1_.coverage" NAME="testJieba (1) Coverage Results" MODIFIED="1467801295318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLPFinalHomework/test" />
-    <SUITE FILE_PATH="coverage/load2python$scripts1.coverage" NAME="scripts1 Coverage Results" MODIFIED="1474984275844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python面向日常任务实战/计划交接单提醒工具" />
-    <SUITE FILE_PATH="coverage/load2python$tk_panedWindow.coverage" NAME="tk_panedWindow Coverage Results" MODIFIED="1474963754996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonGUI学习/Tkinter" />
     <SUITE FILE_PATH="coverage/load2python$Tkinter.coverage" NAME="Tkinter Coverage Results" MODIFIED="1474627665955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.pyenv/versions/2.7.3/lib/python2.7/lib-tk" />
-    <SUITE FILE_PATH="coverage/load2python$ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1461731207247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learn-python-the-hard-way" />
     <SUITE FILE_PATH="coverage/load2python$testMatplotlib.coverage" NAME="testMatplotlib Coverage Results" MODIFIED="1467380610733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python实现主流机器学习算法/02-KNN" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -128,7 +141,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python-Algorithms/README.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
@@ -141,6 +154,79 @@
           </provider>
           <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.2-1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hanoi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/用Python玩转数据/Hanoi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <marker date="1477372618333" expanded="true" signature="136:334" ph="..." />
+                <marker date="1477372618333" expanded="true" signature="253:334" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.2-exercise1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-exercise1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.2-exercise2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-exercise2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.2-exercise3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-exercise3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.2-exercise4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-exercise4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure-guessing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/用Python玩转数据/figure-guessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -159,12 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/testLocalWords.py" />
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/04-Bayes/bayes.py" />
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/README.md" />
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres/__init__.py" />
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres/testLogRegres.py" />
-        <option value="$PROJECT_DIR$/Python实现主流机器学习算法/05-LogRegres/logRegres.py" />
         <option value="$PROJECT_DIR$/Python实现主流机器学习算法/testNumPy.py" />
         <option value="$PROJECT_DIR$/Python算法教程/README.md" />
         <option value="$PROJECT_DIR$/Python算法教程/test.py" />
@@ -208,8 +288,14 @@
         <option value="$PROJECT_DIR$/Python面向日常任务实战/计划交接单提醒工具/scripts1.py" />
         <option value="$PROJECT_DIR$/Python面向日常任务实战/计划交接单提醒工具/scripts.py" />
         <option value="$PROJECT_DIR$/BeginningPython/Thread/helloTread.py" />
-        <option value="$PROJECT_DIR$/用Python玩转数据/1.2-1.py" />
         <option value="$PROJECT_DIR$/Python-Algorithms/README.md" />
+        <option value="$PROJECT_DIR$/用Python玩转数据/figure-guessing.py" />
+        <option value="$PROJECT_DIR$/用Python玩转数据/1.2-1.py" />
+        <option value="$PROJECT_DIR$/用Python玩转数据/Hanoi.py" />
+        <option value="$PROJECT_DIR$/用Python玩转数据/1.2-exercise1.py" />
+        <option value="$PROJECT_DIR$/用Python玩转数据/1.2-exercise2.py" />
+        <option value="$PROJECT_DIR$/用Python玩转数据/1.2-exercise3.py" />
+        <option value="$PROJECT_DIR$/用Python玩转数据/1.2-exercise4.py" />
       </list>
     </option>
   </component>
@@ -295,7 +381,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Python-Algorithms" />
+              <option name="myItemId" value="用Python玩转数据" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,7 +395,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
+              <option name="myItemId" value="Python-Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,44 +434,8 @@
       <recent name="D:\python\load2python\Python实现主流机器学习算法\02-KNN" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2">
-    <configuration default="false" name="scripts" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python面向日常任务实战/计划交接单提醒工具" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="load2python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python面向日常任务实战/计划交接单提醒工具/scripts.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="helloTread" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BeginningPython/Thread" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="load2python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BeginningPython/Thread/helloTread.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="1.2-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1.2-exercise4">
+    <configuration default="false" name="Hanoi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -398,43 +448,79 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用Python玩转数据/1.2-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用Python玩转数据/Hanoi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="1.2-exercise1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用Python玩转数据" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用Python玩转数据/1.2-exercise1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="1.2-exercise2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用Python玩转数据" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="load2python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用Python玩转数据/1.2-exercise2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="1.2-exercise3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用Python玩转数据" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="load2python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用Python玩转数据/1.2-exercise3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="1.2-exercise4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用Python玩转数据" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="load2python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用Python玩转数据/1.2-exercise4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -648,19 +734,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.scripts" />
-      <item index="1" class="java.lang.String" itemvalue="Python.helloTread" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1.2-1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Hanoi" />
+      <item index="1" class="java.lang.String" itemvalue="Python.1.2-exercise1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1.2-exercise2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.1.2-exercise3" />
+      <item index="4" class="java.lang.String" itemvalue="Python.1.2-exercise4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1.2-1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.helloTread" />
-        <item index="4" class="java.lang.String" itemvalue="Python.scripts" />
+        <item index="0" class="java.lang.String" itemvalue="Python.1.2-exercise4" />
+        <item index="1" class="java.lang.String" itemvalue="Python.1.2-exercise3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1.2-exercise2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1.2-exercise1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Hanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -695,23 +781,23 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20053655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23657289" sideWeight="0.50771296" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31713554" sideWeight="0.5412475" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10997442" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23657289" sideWeight="0.49228707" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23657289" sideWeight="0.48692152" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31713554" sideWeight="0.4587525" order="2" side_tool="false" content_ui="tabs" x="383" y="487" width="1283" height="348" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24748491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19693094" sideWeight="0.47820255" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19693094" sideWeight="0.47551978" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39514068" sideWeight="0.4976526" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6688418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31733745" sideWeight="0.47048458" order="2" side_tool="false" content_ui="tabs" x="383" y="487" width="1283" height="348" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270548" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39539006" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -759,42 +845,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NLPFinalHomework/dataCut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法教程/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python实现主流机器学习算法/testNumPy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python算法教程/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/out.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/bin.dat.py" />
     <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/data/out_data_temp.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1104,13 +1154,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1138,6 +1181,65 @@
       </provider>
       <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用Python玩转数据/Hanoi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <marker date="1477372618333" expanded="true" signature="136:334" ph="..." />
+            <marker date="1477372618333" expanded="true" signature="253:334" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-exercise1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-exercise2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-exercise3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用Python玩转数据/figure-guessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-exercise4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
