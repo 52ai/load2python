@@ -1,5 +1,6 @@
 from math import pi, floor
 
+
 print pi
 print long(2E20)
 print floor(35.4)
