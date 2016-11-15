@@ -50,4 +50,4 @@ discard(...)
     If the element is not a member, do nothing.
 '''
 
-
+# 我在测试ubuntu环境下sublime text3 的中文输入 。中文测试完成！还差个输入法框自动跟随了～
