@@ -47,7 +47,7 @@ print arr
 ufunc（universal function） 函数是一种可以对数组每个元素都进行操作的函数。NumPy内置的许多ufunc函数都是在C语言级别实现的，计算速度非常的快
 
 """
-print help(ufunc)
+print help(ufunc) 
 
 print list(range(1, 49, 2))
-print np.linspace(1, 50, 25, dtype=int)
+# print np.linspace(1, 50, 25, dtype=int)
