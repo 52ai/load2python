@@ -1,3 +1,7 @@
+# coding:utf-8
+"""
+获取公司股票
+"""
 import urllib2
 import re
 dStr = urllib2.urlopen('https://hk.finance.yahoo.com/q/cp?s=%5EDJI').read()
