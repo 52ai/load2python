@@ -1,4 +1,4 @@
-from matplotlib.finance import quotes_historical_yahoo
+from matplotlib.finance import quotes_historical_yahoo_ochl
 from datetime import date
 from datetime import datetime
 import pandas as pd
