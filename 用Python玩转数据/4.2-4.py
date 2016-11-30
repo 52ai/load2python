@@ -68,16 +68,16 @@ plt.show()
 print type(closeMeansAXP)
 '''
 
-'''
+
 qutoesdf.close.plot()
 plt.show()
-'''
-qutoesdf_temp = pd.DataFrame()
-qutoesdf_temp['open'] = qutoesdf['2016-01-01':'2016-01-16'].open
-qutoesdf_temp['close'] = qutoesdf['2016-01-01':'2016-01-16'].close
+
+#qutoesdf_temp = pd.DataFrame()
+#qutoesdf_temp['open'] = qutoesdf['2016-01-01':'2016-01-16'].open
+#qutoesdf_temp['close'] = qutoesdf['2016-01-01':'2016-01-16'].close
 # qutoesdf_temp.plot(kind='bar')
 # qutoesdf_temp.plot(kind='bar',stacked=True)
 # qutoesdf_temp.plot(kind='barh')
 # qutoesdf_temp.plot(kind='scatter',x='open',y='close',color='g')
-qutoesdf_temp.plot(kind='kde') # 显示概率分布
-plt.show()
+# qutoesdf_temp.plot(kind='kde') # 显示概率分布
+# plt.show()

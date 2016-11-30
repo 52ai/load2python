@@ -57,7 +57,9 @@ class MyApp(wx.App):
 		frame = MyFrame(None)
 		frame.Show()
 		return True
-
+'''
 if __name__ == '__main__':
 	app = MyApp() # 实例化MyApp()类
 	app.MainLoop()
+'''
+help(wx.Button)
