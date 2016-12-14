@@ -45,3 +45,41 @@ print type(sixs)
 for x in (x for x in range(50) if x%6==0):
 	print x,
 
+# 函数
+print ""
+def frange(start, stop, step=1.0):# 默认参数必须放在后面
+	"""
+	doc-string 文档字符串，用于描述函数或者类
+	"""
+	result=[]
+	while start < (stop - step/2.0):
+		result.append(start)
+		start+=step
+	return result
+
+print frange(1, 5, 0.5)
+
+# 生成器函数
+def frange_g(start, stop, step=1.0):# 默认参数必须放在后面
+	"""
+	doc-string 文档字符串，用于描述函数或者类
+	"""
+	result=[]
+	while start < (stop - step/2.0):
+		yield start #yield和return语句比较相似，区别在于使用yield的生成器函数
+		start+=step
+print list(frange_g(1,5,0.5)) # 强制将生成器对象放在列表中
+for i in frange_g(1,5,0.5):
+	print i,
+
+# 有一个问题需要注意，当生成器函数完成时，并没有返回值，而是抛出一个StopIteration异常，而for和list都会自动处理这个异常
+# 可以通过next()函数进行交互式研究frange_g()的抛出异常
+print ""
+gen = frange_g(1,2,0.5)
+print gen.next()
+print gen.next()
+print gen.next()
+# print gen.next() 这个语句会抛出StopIteration的异常
+
+
+
