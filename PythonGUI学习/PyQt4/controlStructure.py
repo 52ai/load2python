@@ -78,8 +78,22 @@ print ""
 gen = frange_g(1,2,0.5)
 print gen.next()
 print gen.next()
-print gen.next()
 # print gen.next() 这个语句会抛出StopIteration的异常
 
+# 匿名函数lambda函数
 
+cube = lambda x: pow(x,3)
+print cube(3)
+
+lista = [1,2,4,5]
+listb= [2,1,3,4]
+print lista >= listb # Python 可以比较数据结构
+
+# 偏函数应用程序　python 2.5版本以后　
+# buttonOneFunc=functools.partial(action,"one")
+# buttonTwoFunc=functools.partial(action,"Two")
+# 例如在GUI编程中，或许会有数个需要调用同一个函数的按钮，不过参数化的形式是由能够发起这一调用的那个特定按钮决定的。
+
+
+# 异常处理
 
