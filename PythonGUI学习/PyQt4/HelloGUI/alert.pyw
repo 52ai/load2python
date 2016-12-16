@@ -26,3 +26,4 @@ label.setWindowFlags(Qt.SplashScreen)
 label.show()
 QTimer.singleShot(60000, app.quit)
 app.exec_()
+
