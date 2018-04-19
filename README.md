@@ -29,4 +29,4 @@
 
 最近要开搞CCSDS的一个东东，准备用Qt做界面，所以呢，要好好学一波PyQt！ --2016.12.09 By Wayne Yu
 
-好久没GitHub了，最近开始在单位实习，开始要用windows了，说不上妥协吧，用了几年的Ubuntu和Mac OS发现，其实很多好用的软件还是只有Windows有！---2018.04.19 By Wayne Yu
+好久没GitHub了，最近在单位实习，开始要用windows了，说不上妥协吧，用了几年的Ubuntu和Mac OS发现，其实很多好用的软件还是只有Windows有，尤其是Office和visio，用Mac OS的Office写完我的毕业论文后，我简直要吐血，悔过当初没有用Windows的Office！---2018.04.19 By Wayne Yu
