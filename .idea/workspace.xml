@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/load2python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/load2python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python面向日常任务实战/AutoCard/autocard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BeginningPython/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeginningPython/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="load2python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -150,20 +148,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BeginningPython/test.py">
+      <file leaf-file-name="autocard.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/AutoCard/autocard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+            <state relative-caret-position="88">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -183,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python面向日常任务实战/读写二进制文件/data/script.py" />
         <option value="$PROJECT_DIR$/PythonGUI学习（wxPython）/TerrestrialFTSGUI/login.py" />
         <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/cal.py" />
         <option value="$PROJECT_DIR$/PythonGUI学习/Tkinter/calc.py" />
@@ -226,14 +214,15 @@
         <option value="$PROJECT_DIR$/用Python玩转数据/Hanoi.py" />
         <option value="$PROJECT_DIR$/PythonGUI学习/PyQt4/TestProject/planManager.py" />
         <option value="$PROJECT_DIR$/auto_git.sh" />
-        <option value="$PROJECT_DIR$/用Python写网络爬虫/scrapetest.py" />
         <option value="$PROJECT_DIR$/用Python写网络爬虫/wikiSpider/wikiSpider/items.py" />
         <option value="$PROJECT_DIR$/用Python写网络爬虫/wikiSpider/wikiSpider/articleSpider.py" />
         <option value="$PROJECT_DIR$/用Python写网络爬虫/wikiSpider/wikiSpider/spiders/articleSpider.py" />
         <option value="$PROJECT_DIR$/CVwithPython/imgtest.py" />
         <option value="$PROJECT_DIR$/TensorFlow/hello_tf.py" />
-        <option value="$PROJECT_DIR$/BeginningPython/test.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/用Python写网络爬虫/scrapetest.py" />
+        <option value="$PROJECT_DIR$/BeginningPython/test.py" />
+        <option value="$PROJECT_DIR$/Python面向日常任务实战/AutoCard/autocard.py" />
       </list>
     </option>
   </component>
@@ -243,11 +232,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="251" />
-    <option name="y" value="70" />
-    <option name="width" value="1200" />
-    <option name="height" value="619" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="312" />
+    <option name="y" value="161" />
+    <option name="width" value="1260" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -280,6 +269,11 @@
               <item name="load2python" type="b2602c69:ProjectViewProjectNode" />
               <item name="load2python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="load2python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="load2python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python面向日常任务实战" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +285,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -328,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.autocard">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="load2python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -367,7 +361,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="autocard" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="load2python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,12 +369,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python科学计算" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python面向日常任务实战/AutoCard" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python科学计算/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python面向日常任务实战/AutoCard/autocard.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -405,7 +399,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="imgtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scrapetest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="load2python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,12 +407,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CVwithPython" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/用Python写网络爬虫" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CVwithPython/imgtest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/用Python写网络爬虫/scrapetest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -615,19 +609,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.imgtest" />
-      <item itemvalue="Python.demo" />
       <item itemvalue="Python.hello_tf" />
       <item itemvalue="Python.1" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.scrapetest" />
+      <item itemvalue="Python.autocard" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.autocard" />
+        <item itemvalue="Python.scrapetest" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.hello_tf" />
-        <item itemvalue="Python.demo" />
-        <item itemvalue="Python.imgtest" />
       </list>
     </recent_temporary>
   </component>
@@ -654,17 +648,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15052083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15274842" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32736573" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.55130786" side_tool="true" weight="0.2570694" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.1092545" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.47619048" weight="0.23650385" />
-      <window_info anchor="bottom" x="383" y="487" width="1283" height="348" id="Run" order="2" sideWeight="0.44869214" visible="true" weight="0.31784582" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="9" sideWeight="0.47619048" visible="true" weight="0.23555556" />
+      <window_info anchor="bottom" x="206" y="498" width="1283" height="348" id="Run" order="2" sideWeight="0.44869214" weight="0.21444444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24748491" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.46478873" weight="0.19568151" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.46478873" weight="0.19555555" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4976526" weight="0.39514068" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -722,7 +716,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/计划交接单提醒工具/README.md" />
     <entry file="file://$PROJECT_DIR$/PythonGUI学习/Tkinter/tk_eventBind.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -790,7 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/README.md" />
     <entry file="file://$PROJECT_DIR$/用Python玩转数据/1.2-exercise2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -933,13 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/用Python写网络爬虫/scrapetest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python科学计算/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -975,17 +960,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BeginningPython/test.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="-371">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/用Python写网络爬虫/scrapetest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+        <state relative-caret-position="76">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeginningPython/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/AutoCard/autocard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>

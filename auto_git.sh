@@ -1,5 +1,5 @@
 #!/bin/bash
 
 git add .
-git commit -m "用Scrapy 进行网络数据采集"
+git commit -m "auto punch card using python"
 git push origin master
