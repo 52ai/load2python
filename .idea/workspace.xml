@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="530219ed-3db7-4940-89d9-a7ad5c73bc74" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/NetSpeed/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetSpeed/simulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="load2python.iws" />
@@ -147,12 +145,12 @@
     <favorites_list name="load2python" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NetSpeed/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -160,8 +158,8 @@
       <file leaf-file-name="simulation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NetSpeed/simulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+            <state relative-caret-position="271">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
@@ -244,8 +242,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1117" />
-    <option name="height" value="698" />
+    <option name="width" value="1233" />
+    <option name="height" value="617" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -663,16 +661,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19393513" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32666665" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.55130786" side_tool="true" weight="0.2570694" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.15555556" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.47619048" weight="0.23555556" />
-      <window_info active="true" anchor="bottom" x="206" y="498" width="1283" height="348" id="Run" order="2" sideWeight="0.44869214" visible="true" weight="0.21370968" />
+      <window_info anchor="bottom" x="206" y="498" width="1283" height="348" id="Run" order="2" sideWeight="0.44869214" weight="0.32783505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24748491" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.46478873" weight="0.102813855" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.46478873" visible="true" weight="0.33064517" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4976526" weight="0.39514068" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -688,23 +685,23 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
       <window_info id="Structure" order="1" weight="0.24750277" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.11057692" />
       <window_info anchor="bottom" x="383" y="487" width="1283" height="348" id="Run" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.109375" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
       <window_info anchor="right" id="Database" order="3" weight="0.3290469" />
       <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19277108" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3270809" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.11057692" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3971061" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.6688418" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.109375" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -730,6 +727,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NetSpeed/simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python面向日常任务实战/计划交接单提醒工具/scripts1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -982,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NetSpeed/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -994,9 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BeginningPython/calculate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CVwithPython/imgtest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1006,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NetSpeed/simulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        <state relative-caret-position="271">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
