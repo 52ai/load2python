@@ -82,10 +82,10 @@ waiting_queue = []  # 等待队列 task_id, priority_dic, task_order_num, bandwi
 # 等待队列最大的长度，用最长等待时间间隔/单个测试完成时间， 再乘以每个时间片可以执行的任务数（仿真时一个时间片1s）
 # 此外这个队列还得按时间片分片，客户端需要知道第几个时间片可以轮到它, 需要设计算法
 # 仿真时，可以假设每10个一个时间片即execute_order_num = task_order_num/10
-max_len_queue = 600  # 共60个时间片，每个时间片可以大致排10个
+max_len_queue = 200  # 共60个时间片，每个时间片可以大致排10个
 execute_queue = []  # 执行队列 task_id, bandwidth, ttl
-max_waiting_time = 60  # 最长等待时间间隔60s
-per_time = 2  # 单次执行时间
+max_waiting_time = 600  # 最长等待时间间隔60s
+per_time = 30  # 单次执行时间
 
 
 def run_server():
@@ -117,7 +117,10 @@ def priority_bigger(cmp_curr, cmp_i):
 
 
 def send_request(u_id, sum_online_time, sum_test_times, bandwidth):
-    res_lock.acquire()  # 取得锁
+    # print "log_request:Current waiting queue len is :  %s" % len(waiting_queue)
+    # print waiting_queue
+    # print "log_request:Current executing queue len is :  %s" % len(execute_queue)
+    # print execute_queue
     # 本方法处理的事一个新的请求连接
     # 开启一个独立的线程，用于处理客户端发出的请求, 并将处理的结果返回到client_table中
     # print u_id, sum_online_time, sum_test_times
@@ -170,7 +173,6 @@ def send_request(u_id, sum_online_time, sum_test_times, bandwidth):
         client_table[int(u_id)-1][5] = task_order_num / 10  # 返回测试请求标识码
     # 如果当前等待队列的长度大于等于max_queue_len，则表示队列已满，比较优先级，再判断是否入队，或者丢弃
     else:
-        print "Current queue is full: len is %s" % len(waiting_queue)
         # 用task_info中的priority字段，进行优先级定位
         # 这里做一次队列扫描
         # 扫描队列，找到优先级比当前任务大于或等于的个数pre_n，定位队尾元素的index(即task_order_num为max_len_queue)
@@ -188,7 +190,7 @@ def send_request(u_id, sum_online_time, sum_test_times, bandwidth):
             if waiting_queue[i][2] == max_len_queue:
                 # 找到优先级最小那个任务的下标
                 tail_index = i
-                print "find minimum priority :%s" % waiting_queue[i]
+                # print "find minimum priority :%s" % waiting_queue[i]
         # 判断pre_n
         if pre_n < max_len_queue:
             task_order_num = pre_n + 1
@@ -218,18 +220,21 @@ def send_request(u_id, sum_online_time, sum_test_times, bandwidth):
     execute_queue_item = []  # task_id, bandwidth, ttl
     # 扫描执行队列，清理已经执行完的带宽，并计算获得剩余带宽数
     remain_bandwidth = total_bandwidth
+    j = 0  # 控制执行队列删除元素
     for i in xrange(len(execute_queue)):
-        if (time.time() - execute_queue[i][2]) >= per_time:
+        if (time.time() - execute_queue[i-j][2]) >= per_time:
             # 该任务已执行完成，需要移除队列
             # 任务执行完成，移除执行队列之前，需要修改该对应客户端的成功测试次数
-            del_u_id = execute_queue[i][0][0:len(str(client_cnt))]
+            del_u_id = execute_queue[i-j][0][0:len(str(client_cnt))]
             client_table[int(del_u_id) - 1][2] += 1  # 成功测试此时+1
             print "update test_times_per_time, u_id: %s" % del_u_id
-            del execute_queue[i]
+            del execute_queue[i-j]
+            j += 1
         else:
             # 否则，计算剩余带宽数
-            remain_bandwidth = remain_bandwidth - execute_queue[i][1]
-            print "log: remain bandwidth: %s" % remain_bandwidth
+            remain_bandwidth = remain_bandwidth - execute_queue[i-j][1]
+            # print "log: remain bandwidth: %s" % remain_bandwidth
+
     if (bandwidth < remain_bandwidth) and (task_info[2]/10 == 0):
         print "Put task from waiting queue to execute queue!"
         # 如果还有剩余带宽，且当前任务执行序列号为0 ，则立即执行
@@ -254,11 +259,12 @@ def send_request(u_id, sum_online_time, sum_test_times, bandwidth):
 
             break  # 跳出当前循环
 
-    res_lock.release()  # 释放锁
-
 
 def send_confirm(u_id, sum_online_time, sum_test_times, bandwidth):
-    res_lock.acquire()  # 取得锁
+    # print "log_confirm:Current waiting queue len is :  %s" % len(waiting_queue)
+    # print waiting_queue
+    # print "log_confirm:Current executing queue len is :  %s" % len(execute_queue)
+    # print execute_queue
     # 本方法用于处理客户端发送的确认请求信息
     # 既然是确认请求信息，那么该请求应该是在等待队列中
     # 第一步根据u_id，找到对应的任务记录，若存在则进行第二步，如不存在则返回测试标识码-1
@@ -269,37 +275,39 @@ def send_confirm(u_id, sum_online_time, sum_test_times, bandwidth):
         if waiting_queue[i][0][0:len(str(client_cnt))] == u_id:
             # 找到了
             loc = i
-    print "find confirm task loc: %s" % loc
+    # print "find confirm task loc: %s" % loc
     if loc == -1:
         # 没有找到
         # 给客户端返回-1，其且修改下一次访问时间
-        print "not find confirm task, u_id: %s" % u_id
+        # print "not find confirm task, u_id: %s" % u_id
         client_table[int(u_id)-1][5] = -1
         client_table[int(u_id)-1][4] = time.time() + max_waiting_time
     else:
-        print "waiting_queue[loc][2]: %s" % waiting_queue[loc][2]
+        # print "waiting_queue[loc][2]: %s" % waiting_queue[loc][2]
         # 否则就是找到了
         # 扫描执行队列，获得剩余带宽数
         remain_bandwidth = total_bandwidth
+
+        j = 0  # 控制删除执行队列中的元素
         for i in xrange(len(execute_queue)):
-            if (time.time() - execute_queue[i][2]) >= per_time:
+            if (time.time() - execute_queue[i-j][2]) >= per_time:
                 # 该任务已执行完成，需要移除队列
                 # 任务执行完成，移除执行队列之前，需要修改该对应客户端的成功测试次数
-                del_u_id = execute_queue[i][0][0:len(str(client_cnt))]
+                del_u_id = execute_queue[i-j][0][0:len(str(client_cnt))]
                 client_table[int(del_u_id)-1][2] += 1  # 成功测试此时+1
                 print "update confirm execute success, u_id: %s" % del_u_id
-                del execute_queue[i]
+                del execute_queue[i-j]
+                j += 1
             else:
                 # 否则该任务为执行完成，计算剩余带宽数
-                remain_bandwidth = remain_bandwidth - execute_queue[i][1]
+                remain_bandwidth = remain_bandwidth - execute_queue[i-j][1]
+
         print "confirm remain bandwidth: %s" % remain_bandwidth
         execute_queue_item = []  # task_id, bandwidth, ttl
-        print "waiting_queue[loc][2]: %s" % waiting_queue[loc][2]
 
         if (waiting_queue[loc][2] / 10 == 0)and (bandwidth < remain_bandwidth):
             # 条件符合，立即执行
             # 任务入执行队列，并将其从等待队列中删除
-
             # 任务入执行队列
             execute_queue_item.append(waiting_queue[loc][0])  # 获得任务的task_id
             execute_queue_item.append(bandwidth)
@@ -323,7 +331,6 @@ def send_confirm(u_id, sum_online_time, sum_test_times, bandwidth):
             # 直接返回测试标识码，啥也不做，等待客户端发起下一轮请求
             # print int(waiting_queue[loc][0][0:len(str(client_cnt))])
             client_table[int(waiting_queue[loc][0][0:len(str(client_cnt))]) - 1][5] = waiting_queue[loc][2] / 10
-    res_lock.release()  # 释放锁
 
 
 def main():
@@ -397,22 +404,19 @@ def main():
         # 扫描客户端表发起请求
         # 如果客户端表中execute_order_num为-2，则代表初始状态，直接发起测试请求
         if execute_order_num == -2:
-            ts = threading.Thread(target=send_request, args=(u_id, sum_online_time, sum_test_times, band_width))
-            ts.start()
-            # threads.append(ts)
-            print "flag :%s ,create client thread %s and send request: %s %s %s %s " % (execute_order_num, ts.getName(), u_id, sum_online_time, sum_test_times, band_width)
+            send_request(u_id, sum_online_time, sum_test_times, band_width)
+            # print "flag :%s ,create client request and send request: %s %s %s %s " % (execute_order_num, u_id, sum_online_time, sum_test_times, band_width)
         # 如果客户端表中execute_order_num为-1,0，则代表测试成功或者测试异常状态，等待下一轮时间开启
         # 可从next_request_time中获取信息
         elif execute_order_num == 0 or execute_order_num == -1:
             # 如果条件成立，则判断是否到了下一轮测试的时间，如果到了，则发起新的测试请求
             if time.time() >= next_request_time:
-                ts = threading.Thread(target=send_request, args=(u_id, sum_online_time, sum_test_times, band_width))
-                ts.start()
-                # threads.append(ts)
-                print "flag :%s ,create client thread %s and send request: %s %s %s %s " % (execute_order_num, ts.getName(), u_id, sum_online_time, sum_test_times, band_width)
+                send_request(u_id, sum_online_time, sum_test_times, band_width)
+                # print "flag :%s ,create client request and send request: %s %s %s %s " % (execute_order_num, u_id, sum_online_time, sum_test_times, band_width)
             else:
                 # 否则还没到下一轮测试时间，直接跳过,输出日志
-                print "flag: %s, Wait to Send Request, u_id: %s" % (execute_order_num, u_id)
+                pass
+                # print "flag: %s, Wait to Send Request, u_id: %s" % (execute_order_num, u_id)
         # 如果客户端表中execute_order_num为1~max_len_queue中的数，则表示该客户端已经在排着队
         # 此时发送的应该是确认信息
         # 请求策略为判断next_request_time字段，如果已经到达该时间，则发起请求，并设置下一次请求时间
@@ -422,30 +426,21 @@ def main():
         # 可以每次取当前最长排队时间的中间值进行，重新设定下一次请求时间（拍脑袋的，与三等分，六等分实际上意思一样）
         else:
             if time.time() >= next_request_time:
-                ts = threading.Thread(target=send_confirm, args=(u_id, sum_online_time, sum_test_times, band_width))
-                ts.start()
-                # threads.append(ts)
-                print "flag :%s ,create client thread %s and send confirm: %s %s %s %s " % (execute_order_num, ts.getName(), u_id, sum_online_time, sum_test_times, band_width)
+                send_confirm(u_id, sum_online_time, sum_test_times, band_width)
+                # print "flag :%s ,create client confirm and send confirm: %s %s %s %s " % (execute_order_num, u_id, sum_online_time, sum_test_times, band_width)
             # 如果还未到达下一次发起请求的时间，则重新设置下一次请求时间为当前最长排队时间的中间值
             else:
-                client_table[cnt-1][4] = time.time() + (execute_order_num * 1)/2  # 重新设置下一次请求确认时间
-                print "flag: %s, Set Next Request Time, uid: %s" % (execute_order_num, u_id)
-
-        if len(threading.enumerate()) > 600:
-            print "threading is overload: %s, sleep 10 seconds" % len(threading.enumerate())
-            time.sleep(10)
+                client_table[cnt-1][4] = time.time() + (execute_order_num * 1)/100  # 重新设置下一次请求确认时间
+                # print "flag: %s, Set Next Request Time, uid: %s" % (execute_order_num, u_id)
 
         # 如果扫描客户端表到了最后则重新执行，发送请求
         cnt += 1
         if cnt == 1000:
             cnt = 1
-            print "New Scan Threading Nums: %s" % len(threading.enumerate())
-            print "And Client Table:\n", client_table
-            # 如果线程超过1000，则等待10s
+            print "New Scan And Client Table:\n", client_table
 
 
 if __name__ == '__main__':
-    res_lock = threading.Lock()
     main()
 
 
