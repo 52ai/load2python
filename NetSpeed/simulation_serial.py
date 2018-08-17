@@ -9,6 +9,7 @@ Description:
 1）初始化客户端数据，生成服务器端等待队列线程及等待队列、执行队列线程及执行队列。
 
 客户端表（模拟1000个客户端）client_table：0 u_id, 1 demand_width, 2 sum_test_times, 3 login_time, 4 next_request_time, 5 (execute_order_num)
+6（request_times）
 其中
 u_id，随机生成0001~1000的字符串，
 sum_test_times初始化均为0，
@@ -72,20 +73,48 @@ Remove：现阶段移除操作，主要是由于其他操作产生的附加操�
 from numpy import random
 import time
 import threading
+import csv
 
 # client_table：0 u_id, 1 demand_width, 2 sum_test_times, 3 login_time, 4 next_request_time, 5 (execute_order_num)
 client_table = []  # 客户端信息表
-client_cnt = 1000
+client_cnt = 10000
 total_bandwidth = 1000  # 总的带宽数，测试时可设置为1000
 waiting_queue = []  # 等待队列 task_id, priority_dic, task_order_num, bandwidth, ttl
 
 # 等待队列最大的长度，用最长等待时间间隔/单个测试完成时间， 再乘以每个时间片可以执行的任务数（仿真时一个时间片1s）
 # 此外这个队列还得按时间片分片，客户端需要知道第几个时间片可以轮到它, 需要设计算法
 # 仿真时，可以假设每10个一个时间片即execute_order_num = task_order_num/10
-max_len_queue = 200  # 共60个时间片，每个时间片可以大致排10个
+max_len_queue = 20  # 共20个时间片，每个时间片可以大致排10个
 execute_queue = []  # 执行队列 task_id, bandwidth, ttl
-max_waiting_time = 600  # 最长等待时间间隔60s
-per_time = 30  # 单次执行时间
+max_waiting_time = 10  # 最长等待时间间隔20s
+per_time = 2  # 单次执行时间
+
+simulation_time = 10  # 仿真时间，单位为min
+# 仿真时，需要采集的统计数据，bandwidth_usage_coefficient
+bandwidth_usage = []  # [time, usage_rate]
+
+"""
+程序已写好，开始控制变量做仿真实验
+
+第一轮公共参数：
+max_len_queue = 300  # 等待队列的最大长度
+max_waiting_time 20  # 最长等待时间，单位s
+per_time = 2  # 单次执行时间，单位s
+
+共测试了
+1K用户的1min,2min,10min
+1W用户的1min
+6W用户的1min
+6w用户的10min
+
+第二轮公共参数，需要讨论，针对用户量大的情况下做相应的修改
+
+假如1万个用户（全部执行1次大致需要2000s）
+
+max_len_queue = 3000  # 等待队列的最大长度 < （最长等待时间 / 单次执行时间 ）*单个时间片可执行任务数
+max_waiting_time 60   # 最长等待时间，单位s
+per_time = 2  # 单次执行时间，单位s
+"""
 
 
 def run_server():
@@ -99,10 +128,16 @@ def priority_bigger(cmp_curr, cmp_i):
     # 对任务的优先级进行比较
     # 如果cmp_curr的优先级大于cmp_i则返回True
     if cmp_curr[1][0] < cmp_i[1][0]:
+        # print "cmp_curr[1][0]:", cmp_curr[1][0]
+        # print "cmp_i[1][0]:", cmp_i[1][0]
         return True  # 单位时间内测试次数越少，优先级越高
     elif cmp_curr[1][0] > cmp_i[1][0]:
+        # print "cmp_curr[1][0]:", cmp_curr[1][0]
+        # print "cmp_i[1][0]:", cmp_i[1][0]
         return False
     else:
+        # print "eq_cmp_curr[1][0]:", cmp_curr[1][0]
+        # print "eq_cmp_i[1][0]:", cmp_i[1][0]
         # 在线时间越长的，优先级越高
         if cmp_curr[1][1] > cmp_i[1][1]:
             return True
@@ -117,9 +152,9 @@ def priority_bigger(cmp_curr, cmp_i):
 
 
 def send_request(u_id, sum_online_time, sum_test_times, bandwidth):
-    # print "log_request:Current waiting queue len is :  %s" % len(waiting_queue)
+    print "log_request:Current waiting queue len is :  %s" % len(waiting_queue)
     # print waiting_queue
-    # print "log_request:Current executing queue len is :  %s" % len(execute_queue)
+    print "log_request:Current executing queue len is :  %s" % len(execute_queue)
     # print execute_queue
     # 本方法处理的事一个新的请求连接
     # 开启一个独立的线程，用于处理客户端发出的请求, 并将处理的结果返回到client_table中
@@ -170,7 +205,12 @@ def send_request(u_id, sum_online_time, sum_test_times, bandwidth):
         # 仿真时，测试码的返回直接通过修改client_table中execute_order_num来实现
         # 通过u_id去找到当前请求客户端表中的下标，进而修改execute_order_num的值
         # print int(u_id)
-        client_table[int(u_id)-1][5] = task_order_num / 10  # 返回测试请求标识码
+        # 这里有个问题:初始化的时候，前十个测试标识码会一直是0，但是客户端会发起新的请求
+        if task_order_num / 10 == 0:
+            client_table[int(u_id) - 1][5] = 1
+        else:
+            client_table[int(u_id) - 1][5] = task_order_num / 10  # 返回测试请求标识码
+
     # 如果当前等待队列的长度大于等于max_queue_len，则表示队列已满，比较优先级，再判断是否入队，或者丢弃
     else:
         # 用task_info中的priority字段，进行优先级定位
@@ -212,12 +252,20 @@ def send_request(u_id, sum_online_time, sum_test_times, bandwidth):
             task_info[2] = task_order_num
             waiting_queue.append(task_info)
             # 通知客户端，返回测试请求标识码
-            client_table[int(u_id) - 1][5] = task_order_num / 10
+            # 等待队列满的时候，此处也有可能优先级排在前面10，使得返回的时间片信息为0
+            if task_order_num / 10 == 0:
+                client_table[int(u_id) - 1][5] = 1
+            else:
+                client_table[int(u_id) - 1][5] = task_order_num / 10  # 返回测试请求标识码
+        else:
+            # 如果第一次请求的时候，队列中所有的任务的优先级均大于当前任务
+            pass
 
     # 对执行队列的处理
     # 判断剩余带宽数，如果剩余且当前任务的返回码为0，则加上时间戳放入到执行队列中
     # 在主线程中，新建一个独立线程，去扫描执行队列，模拟测速的过程，时间到了就清除队列
     execute_queue_item = []  # task_id, bandwidth, ttl
+    bandwidth_usge_item = []  # time, usage_rate
     # 扫描执行队列，清理已经执行完的带宽，并计算获得剩余带宽数
     remain_bandwidth = total_bandwidth
     j = 0  # 控制执行队列删除元素
@@ -227,13 +275,27 @@ def send_request(u_id, sum_online_time, sum_test_times, bandwidth):
             # 任务执行完成，移除执行队列之前，需要修改该对应客户端的成功测试次数
             del_u_id = execute_queue[i-j][0][0:len(str(client_cnt))]
             client_table[int(del_u_id) - 1][2] += 1  # 成功测试此时+1
+            client_table[int(del_u_id) - 1][5] = 0  # 修改execute_order_num = 0
+            client_table[int(del_u_id) - 1][4] = time.time() + max_waiting_time  # 修改下次执行时间 = 当前时间戳 + 最大等待时间
             print "update test_times_per_time, u_id: %s" % del_u_id
             del execute_queue[i-j]
             j += 1
+            # 此处出执行队列需要通知客户端完成执行操作
+            # 修改sum_test_times
+            # 修改execute_order_num = 0
+            # 修改下次执行时间 = 当前时间戳 + 最大等待时间
         else:
             # 否则，计算剩余带宽数
             remain_bandwidth = remain_bandwidth - execute_queue[i-j][1]
             # print "log: remain bandwidth: %s" % remain_bandwidth
+    """
+    采集带宽利用率
+    """
+    usage_rate = float(total_bandwidth-remain_bandwidth) / total_bandwidth
+    bandwidth_usge_item.append(time.time())
+    bandwidth_usge_item.append(usage_rate)
+    bandwidth_usage.append(bandwidth_usge_item)
+    print "request remain bandwidth: %s usage rate: %s" % (remain_bandwidth, usage_rate)
 
     if (bandwidth < remain_bandwidth) and (task_info[2]/10 == 0):
         print "Put task from waiting queue to execute queue!"
@@ -261,9 +323,9 @@ def send_request(u_id, sum_online_time, sum_test_times, bandwidth):
 
 
 def send_confirm(u_id, sum_online_time, sum_test_times, bandwidth):
-    # print "log_confirm:Current waiting queue len is :  %s" % len(waiting_queue)
+    print "log_confirm:Current waiting queue len is :  %s" % len(waiting_queue)
     # print waiting_queue
-    # print "log_confirm:Current executing queue len is :  %s" % len(execute_queue)
+    print "log_confirm:Current executing queue len is :  %s" % len(execute_queue)
     # print execute_queue
     # 本方法用于处理客户端发送的确认请求信息
     # 既然是确认请求信息，那么该请求应该是在等待队列中
@@ -295,15 +357,25 @@ def send_confirm(u_id, sum_online_time, sum_test_times, bandwidth):
                 # 任务执行完成，移除执行队列之前，需要修改该对应客户端的成功测试次数
                 del_u_id = execute_queue[i-j][0][0:len(str(client_cnt))]
                 client_table[int(del_u_id)-1][2] += 1  # 成功测试此时+1
+                client_table[int(del_u_id)-1][5] = 0  # 修改execute_order_num = 0
+                client_table[int(del_u_id)-1][4] = time.time() + max_waiting_time  # 修改下次执行时间 = 当前时间戳 + 最大等待时间
                 print "update confirm execute success, u_id: %s" % del_u_id
                 del execute_queue[i-j]
                 j += 1
+                # 此处出执行队列需要通知客户端完成执行操作
             else:
                 # 否则该任务为执行完成，计算剩余带宽数
                 remain_bandwidth = remain_bandwidth - execute_queue[i-j][1]
-
-        print "confirm remain bandwidth: %s" % remain_bandwidth
         execute_queue_item = []  # task_id, bandwidth, ttl
+        bandwidth_usge_item = []  # time, usage
+        """
+           采集带宽利用率
+           """
+        usage_rate = float(total_bandwidth - remain_bandwidth) / total_bandwidth
+        bandwidth_usge_item.append(time.time())
+        bandwidth_usge_item.append(usage_rate)
+        bandwidth_usage.append(bandwidth_usge_item)
+        print "request remain bandwidth: %s usage rate: %s" % (remain_bandwidth, usage_rate)
 
         if (waiting_queue[loc][2] / 10 == 0)and (bandwidth < remain_bandwidth):
             # 条件符合，立即执行
@@ -320,17 +392,37 @@ def send_confirm(u_id, sum_online_time, sum_test_times, bandwidth):
             del waiting_queue[loc]
             # 更新当前等待队列的任务序列号,所有号比他大的都需要减1
             for i in xrange(len(waiting_queue)):
-                if waiting_queue[i][2] <= del_task_order_num:
+                if waiting_queue[i][2] >= del_task_order_num:
                     waiting_queue[i][2] -= 1
                 # break  # 跳出当前循环
             # 通知客户端，返回测试标识码,并修改下次发请求的时间
-            client_table[int(waiting_queue[loc][0][0:len(str(client_cnt))]) - 1][5] = 0
-            client_table[int(waiting_queue[loc][0][0:len(str(client_cnt))]) - 1][4] = time.time() + max_waiting_time
+            # client_table[int(waiting_queue[loc][0][0:len(str(client_cnt))]) - 1][5] = 0
+            # client_table[int(waiting_queue[loc][0][0:len(str(client_cnt))]) - 1][4] = time.time() + max_waiting_time
         else:
+            # 应该分两种情况，一种是资源不足，第二种没有在时间片为0的区域
             # 找到了，但仍排着队或资源池不足
             # 直接返回测试标识码，啥也不做，等待客户端发起下一轮请求
             # print int(waiting_queue[loc][0][0:len(str(client_cnt))])
-            client_table[int(waiting_queue[loc][0][0:len(str(client_cnt))]) - 1][5] = waiting_queue[loc][2] / 10
+            # client_table[int(waiting_queue[loc][0][0:len(str(client_cnt))]) - 1][5] = waiting_queue[loc][2] / 10
+
+            if (waiting_queue[loc][2]/10) == 0:
+                client_table[int(waiting_queue[loc][0][0:len(str(client_cnt))]) - 1][5] = 1
+            else:
+                client_table[int(waiting_queue[loc][0][0:len(str(client_cnt))]) - 1][5] = waiting_queue[loc][2] / 10
+
+            """
+            此处返回的肯定是0，客户端发送的应该是立即确认的请求
+            可以暂时返回1，小间隔时间立刻方发送confirm
+            """
+
+
+def write_file(file_name, file_list):
+    # 写文件
+    with open(file_name, "wb") as fw:
+        writer = csv.writer(fw)
+        for item in file_list:
+            writer.writerow(item)
+    print "write file: %s DONE!" % file_name
 
 
 def main():
@@ -366,6 +458,8 @@ def main():
         next_request_time = 0
         # 考虑需要对客户端的每次请求，返回相应的标识，因此在客户端信息表中添加execute_order_num字段，初始值为-2,代表的是初始状态
         execute_order_num = -2
+        # 考虑到需要统计，每个客户端在给定时间内发起请求的次数，因此在用户表中加入统计请求的次数的字段,初始为0
+        request_times = 0
 
         tmp_list.append(u_id)
         tmp_list.append(demand_width)
@@ -373,6 +467,7 @@ def main():
         tmp_list.append(t)
         tmp_list.append(next_request_time)
         tmp_list.append(execute_order_num)
+        tmp_list.append(request_times)
         # 将生成的客户端记录存入client_table中
         client_table.append(tmp_list)
         tmp_list = []  # 将临时list置空
@@ -389,10 +484,12 @@ def main():
     print 'all DONE at:', time.ctime()
     """
     # 2)循环读取客户端列表，向服务器端的等待队列发起测试请求，每个请求都是独立线程
+    # 记录程序开始的时间
+    start_time = time.time()
     print "2.Loop Read Client and Send Request:"
     # threads = []  # 存储客户端请求线程
     cnt = 1
-    while cnt <= 1000:
+    while cnt <= (client_cnt + 1):
         # print waiting_queue
         u_id = client_table[cnt-1][0]
         sum_online_time = time.time() - client_table[cnt-1][3]
@@ -405,6 +502,7 @@ def main():
         # 如果客户端表中execute_order_num为-2，则代表初始状态，直接发起测试请求
         if execute_order_num == -2:
             send_request(u_id, sum_online_time, sum_test_times, band_width)
+            client_table[cnt-1][6] += 1  # 记录发起请求的次数
             # print "flag :%s ,create client request and send request: %s %s %s %s " % (execute_order_num, u_id, sum_online_time, sum_test_times, band_width)
         # 如果客户端表中execute_order_num为-1,0，则代表测试成功或者测试异常状态，等待下一轮时间开启
         # 可从next_request_time中获取信息
@@ -412,6 +510,7 @@ def main():
             # 如果条件成立，则判断是否到了下一轮测试的时间，如果到了，则发起新的测试请求
             if time.time() >= next_request_time:
                 send_request(u_id, sum_online_time, sum_test_times, band_width)
+                client_table[cnt - 1][6] += 1  # 记录发起请求的次数
                 # print "flag :%s ,create client request and send request: %s %s %s %s " % (execute_order_num, u_id, sum_online_time, sum_test_times, band_width)
             else:
                 # 否则还没到下一轮测试时间，直接跳过,输出日志
@@ -427,6 +526,7 @@ def main():
         else:
             if time.time() >= next_request_time:
                 send_confirm(u_id, sum_online_time, sum_test_times, band_width)
+                client_table[cnt - 1][6] += 1  # 记录发起请求的次数
                 # print "flag :%s ,create client confirm and send confirm: %s %s %s %s " % (execute_order_num, u_id, sum_online_time, sum_test_times, band_width)
             # 如果还未到达下一次发起请求的时间，则重新设置下一次请求时间为当前最长排队时间的中间值
             else:
@@ -435,12 +535,26 @@ def main():
 
         # 如果扫描客户端表到了最后则重新执行，发送请求
         cnt += 1
-        if cnt == 1000:
+        if cnt == (client_cnt + 1):
             cnt = 1
             print "New Scan And Client Table:\n", client_table
+            print "Waiting Queue:\n", waiting_queue
+            print "Execute Queue:\n", execute_queue
+        # 获取系统的当前时间
+        curr_time = time.time()
+        if (curr_time - start_time) / float(60) >= simulation_time:
+            print "Time is over, exit simulation!"
+            # print "bandwidth_usage:\n", bandwidth_usage
+            write_file("bandwidth_usage.csv", bandwidth_usage)
+            # print "client_table:\n", client_table
+            write_file("client_table.csv", client_table)
+            break
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except BaseException as e:
+        print "Exit: %s" % e
 
 
