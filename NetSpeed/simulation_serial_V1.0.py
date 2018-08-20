@@ -79,16 +79,16 @@ import csv
 
 # client_table：0 u_id, 1 demand_width, 2 sum_test_times, 3 login_time, 4 next_request_time, 5 (execute_order_num)
 client_table = []  # 客户端信息表
-client_cnt = 10000
+client_cnt = 1000
 total_bandwidth = 1000  # 总的带宽数，测试时可设置为1000
 waiting_queue = []  # 等待队列 task_id, priority_dic, task_order_num, bandwidth, ttl
 
 # 等待队列最大的长度，用最长等待时间间隔/单个测试完成时间， 再乘以每个时间片可以执行的任务数（仿真时一个时间片1s）
 # 此外这个队列还得按时间片分片，客户端需要知道第几个时间片可以轮到它, 需要设计算法
 # 仿真时，可以假设每10个一个时间片即execute_order_num = task_order_num/10
-max_len_queue = 20  # 共20个时间片，每个时间片可以大致排10个
+max_len_queue = 300  # 共20个时间片，每个时间片可以大致排10个
 execute_queue = []  # 执行队列 task_id, bandwidth, ttl
-max_waiting_time = 10  # 最长等待时间间隔20s
+max_waiting_time = 20  # 最长等待时间间隔20s
 per_time = 2  # 单次执行时间
 
 simulation_time = 10  # 仿真时间，单位为min
