@@ -94,7 +94,7 @@ waiting_queue = []  # 等待队列 task_id, priority_dic, task_order_num, bandwi
 # 等待队列最大的长度，用最长等待时间间隔/单个测试完成时间， 再乘以每个时间片可以执行的任务数（仿真时一个时间片1s）
 # 此外这个队列还得按时间片分片，客户端需要知道第几个时间片可以轮到它, 需要设计算法
 # 仿真时，可以假设每10个一个时间片即execute_order_num = task_order_num/10
-max_len_queue = 1000  # 共20个时间片，每个时间片可以大致排10个
+max_len_queue = 300  # 共20个时间片，每个时间片可以大致排10个
 execute_queue = []  # 执行队列 task_id, bandwidth, ttl
 max_waiting_time = 60  # 最长等待时间间隔200s
 per_time = 2  # 单次执行时间
@@ -547,7 +547,7 @@ def main():
                 # print "flag :%s ,create client confirm and send confirm: %s %s %s %s " % (execute_order_num, u_id, sum_online_time, sum_test_times, band_width)
             # 如果还未到达下一次发起请求的时间，则重新设置下一次请求时间为当前最长排队时间的中间值
             else:
-                client_table[cnt-1][4] = time.time() + (execute_order_num * 1)/100  # 重新设置下一次请求确认时间
+                client_table[cnt-1][4] = time.time() + (execute_order_num * 2) / 100  # 重新设置下一次请求确认时间
                 # print "flag: %s, Set Next Request Time, uid: %s" % (execute_order_num, u_id)
 
         # 如果扫描客户端表到了最后则重新执行，发送请求
