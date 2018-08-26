@@ -82,10 +82,10 @@ waiting_queue = []  # 等待队列 task_id, priority_dic, task_order_num, bandwi
 # 等待队列最大的长度，用最长等待时间间隔/单个测试完成时间， 再乘以每个时间片可以执行的任务数（仿真时一个时间片1s）
 # 此外这个队列还得按时间片分片，客户端需要知道第几个时间片可以轮到它, 需要设计算法
 # 仿真时，可以假设每10个一个时间片即execute_order_num = task_order_num/10
-max_len_queue = 600  # 共60个时间片，每个时间片可以大致排10个
+max_len_queue = 200  # 共60个时间片，每个时间片可以大致排10个
 execute_queue = []  # 执行队列 task_id, bandwidth, ttl
-max_waiting_time = 60  # 最长等待时间间隔60s
-per_time = 2  # 单次执行时间
+max_waiting_time = 600  # 最长等待时间间隔60s
+per_time = 30  # 单次执行时间
 
 
 def run_server():
@@ -281,6 +281,8 @@ def send_confirm(u_id, sum_online_time, sum_test_times, bandwidth):
         # 否则就是找到了
         # 扫描执行队列，获得剩余带宽数
         remain_bandwidth = total_bandwidth
+
+        #################此处对执行队列进行操作有问题######################
         for i in xrange(len(execute_queue)):
             if (time.time() - execute_queue[i][2]) >= per_time:
                 # 该任务已执行完成，需要移除队列
@@ -383,7 +385,7 @@ def main():
     """
     # 2)循环读取客户端列表，向服务器端的等待队列发起测试请求，每个请求都是独立线程
     print "2.Loop Read Client and Send Request:"
-    # threads = []  # 存储客户端请求线程
+    threads = []  # 存储客户端请求线程
     cnt = 1
     while cnt <= 1000:
         # print waiting_queue
@@ -399,7 +401,7 @@ def main():
         if execute_order_num == -2:
             ts = threading.Thread(target=send_request, args=(u_id, sum_online_time, sum_test_times, band_width))
             ts.start()
-            # threads.append(ts)
+            threads.append(ts)
             print "flag :%s ,create client thread %s and send request: %s %s %s %s " % (execute_order_num, ts.getName(), u_id, sum_online_time, sum_test_times, band_width)
         # 如果客户端表中execute_order_num为-1,0，则代表测试成功或者测试异常状态，等待下一轮时间开启
         # 可从next_request_time中获取信息
@@ -408,7 +410,7 @@ def main():
             if time.time() >= next_request_time:
                 ts = threading.Thread(target=send_request, args=(u_id, sum_online_time, sum_test_times, band_width))
                 ts.start()
-                # threads.append(ts)
+                threads.append(ts)
                 print "flag :%s ,create client thread %s and send request: %s %s %s %s " % (execute_order_num, ts.getName(), u_id, sum_online_time, sum_test_times, band_width)
             else:
                 # 否则还没到下一轮测试时间，直接跳过,输出日志
@@ -424,7 +426,7 @@ def main():
             if time.time() >= next_request_time:
                 ts = threading.Thread(target=send_confirm, args=(u_id, sum_online_time, sum_test_times, band_width))
                 ts.start()
-                # threads.append(ts)
+                threads.append(ts)
                 print "flag :%s ,create client thread %s and send confirm: %s %s %s %s " % (execute_order_num, ts.getName(), u_id, sum_online_time, sum_test_times, band_width)
             # 如果还未到达下一次发起请求的时间，则重新设置下一次请求时间为当前最长排队时间的中间值
             else:
@@ -432,14 +434,17 @@ def main():
                 print "flag: %s, Set Next Request Time, uid: %s" % (execute_order_num, u_id)
 
         if len(threading.enumerate()) > 600:
-            print "threading is overload: %s, sleep 10 seconds" % len(threading.enumerate())
-            time.sleep(10)
+            print "threading is overload: %s （len(threads):%s）, sleep 10 seconds" % (len(threading.enumerate()), len(threads))
+            time.sleep(0.001)
+            for i in xrange(100):
+                threads[i].join(timeout=1)
+            print "threading is overload: %s （len(threads):%s）, sleep 10 seconds" % (len(threading.enumerate()), len(threads))
 
         # 如果扫描客户端表到了最后则重新执行，发送请求
         cnt += 1
         if cnt == 1000:
             cnt = 1
-            print "New Scan Threading Nums: %s" % len(threading.enumerate())
+            print "New Scan Threading Nums: %s （len(threads):%s）" % (len(threading.enumerate()), len(threads))
             print "And Client Table:\n", client_table
             # 如果线程超过1000，则等待10s
 
