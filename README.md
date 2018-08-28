@@ -12,8 +12,7 @@
 
 什么才是我真正喜欢做的事情？别忘了来时的路，尊重自己的内心~ <br>
 ---2016.3.22 By Wenyan Yu
-
-慎终如始，则无败事！---2016.3.22 By Wenyan Yu
+慎终如始，则无败事！---2016.3.22 By Wenyan Yu <br>
 
 转战Linux平台，又重新回到Linux的怀抱，这感觉真好，Linux真心比Windows用的舒服，哈哈～～！---2016.5.4 By Wenyan Yu
 
