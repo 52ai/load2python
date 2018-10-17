@@ -4,3 +4,4 @@ from urllib2 import urlopen
 html = urlopen("http://www.pythonscraping.com/exercises/exercise1.html")
 print(html.read())
 print "hello, urllib2"
+print "hello, GZ!"
